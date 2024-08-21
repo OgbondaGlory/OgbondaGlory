@@ -6,7 +6,7 @@
 
 A Data engineer passionate about Data Science :bar_chart:. I like automating, building scalable pipelines, and improving and optimizing systems. I am a Strong Advocate for 📜 open source, :cloud: Cloud computing, 🚀 DevOps, :new: Innovation and Automation :robot: 
 
-- 🌱 I’m currently pursuing **Masters in Advanced Computer Science at Bangor University, UK**
+- 🌱 I’m currently pursuing **PhD in Computer Science at Bangor University, UK under the AIMLAC (Artificial Intelligence Machine Learning and Advanced Computing)CDT**
 - ⚡ **Fun fact:** I **strongly** I am a firm believer in the *Chaos theory*, which states that even in unpredictable environments with seemingly random oddities and irregularities, there exists a predictable and sensible pattern that is not initially visible.
 - :bulb: I'm interested in all things data: **Big Data, Cloud, Machine, Deep and Reinforcement Learning, Data Science and Visualizations**
 - 💬 Talk to me about Formula 1 :racing_car:, Memes, Anime, Movies 🎥, Call of Duty 🎮, Amateur Photography 📸
