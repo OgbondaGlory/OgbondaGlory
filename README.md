@@ -1,292 +1,236 @@
 <!-- GitHub Profile README Draft for Ebube Glory Ogbonda -->
 <div align="center">
 
-  <!-- Animated typing banner -->
-  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=700&size=28&pause=1200&color=00C3FF&center=true&vCenter=true&width=900&lines=Ebube+Glory+Ogbonda;Researcher+%7C+ML+%26+Data+Visualization+Engineer+%7C+Legal+Tech;Building+PoliViz+%7C+Emploodr+%7C+LexVizExplorer;Human-centered+AI+%2B+Knowledge+Graphs+%2B+RAG+%2B+Visualization" alt="Typing SVG" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:1a1f35&height=170&section=header&text=Ebube%20Glory%20Ogbonda&fontSize=40&fontColor=e6edf3&fontAlignY=45&desc=Researcher%20%7C%20ML%20%26%20Data%20Visualization%20Engineer%20%7C%20Legal%20Tech&descAlignY=70&descSize=15&descColor=8b949e" alt="header" />
 
-  <!-- Quick links & counters -->
-  <p>
-    <a href="https://www.linkedin.com/in/ebube-glory-ogbonda-05bb2014b/" target="_blank">
-      <img src="https://img.shields.io/badge/LinkedIn-Profile-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-    </a>
-    <a href="#projects">
-      <img src="https://img.shields.io/badge/Projects-Showcase-6A5ACD?style=for-the-badge&logo=github" alt="Projects"/>
-    </a>
-    <a href="#experience">
-      <img src="https://img.shields.io/badge/Experience-Highlights-3b82f6?style=for-the-badge&logo=briefcase" alt="Experience"/>
-    </a>
-    <a href="#education">
-      <img src="https://img.shields.io/badge/Education-Background-10b981?style=for-the-badge&logo=graduated" alt="Education"/>
-    </a>
-    <a href="#publications">
-      <img src="https://img.shields.io/badge/Publications-%26%20Reports-ff4081?style=for-the-badge&logo=readme" alt="Publications"/>
-    </a>
-    <a href="#skills">
-      <img src="https://img.shields.io/badge/Skills-Stack-2E8B57?style=for-the-badge&logo=awslambda" alt="Skills"/>
-    </a>
-    <a href="#certifications">
-      <img src="https://img.shields.io/badge/Certifications-Credly-f59e0b?style=for-the-badge&logo=acclaim" alt="Certifications"/>
-    </a>
-    <a href="#research">
-      <img src="https://img.shields.io/badge/Research-Areas-FF7F50?style=for-the-badge&logo=readme" alt="Research"/>
-    </a>
-    <img src="https://komarev.com/ghpvc/?username=OgbondaGlory&style=for-the-badge&color=blueviolet" alt="profile views"/>
-  </p>
+<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=18&pause=1400&color=58a6ff&center=true&vCenter=true&width=780&lines=Building+LexVizExplorer+%7C+PoliViz+%7C+EmployODR;Human-centred+AI+%2B+Knowledge+Graphs+%2B+RAG+Pipelines;PhD+Researcher+%40+Bangor+University+AIMLAC+CDT;9+Years+Full-Stack+%7C+Legal+Tech+%7C+Data+Visualization" alt="typing animation" />
 
-  <!-- Wave divider -->
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%" alt="divider" />
+<br/>
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ebube-glory-ogbonda-05bb2014b/)
+[![ORCID](https://img.shields.io/badge/ORCID-A6CE39?style=for-the-badge&logo=orcid&logoColor=white)](https://orcid.org/0009-0002-9781-7537)
+[![Portfolio](https://img.shields.io/badge/Portfolio-111827?style=for-the-badge&logo=firefox&logoColor=white)](https://ebubegloryogbonda.dev/)
+[![Credly](https://img.shields.io/badge/Certifications-f59e0b?style=for-the-badge&logo=acclaim&logoColor=white)](https://www.credly.com/users/ebube_glory_ogbonda/badges)
+![Profile Views](https://komarev.com/ghpvc/?username=OgbondaGlory&style=for-the-badge&color=58a6ff)
+
 </div>
-
-## 👋 About me
-
-I’m a researcher and builder focused on applied AI, data visualization, and human-centric information systems. I love turning complex legal and policy workflows into interactive, trustworthy experiences. Outside of work I train powerlifting and practice judo — discipline and iteration carry over into my engineering.
-
-- Based in the UK • collaborating with universities and research teams
-- Obsessed with: knowledge graphs, retrieval-augmented generation (RAG), and visual analytics
-- Currently shipping: PoliViz, Emploodr, and LexVizExplorer
-
-<a id="projects"></a>
-
-## 🚀 Project highlights
-
-<div align="center">
-
-### 1) LexVizExplorer — Visual Legal Chatbot & Flow Explorer
-
-Interactive legal-process explorer built with React + TypeScript. It blends semantic flow selection, graph validation, and embeddings-backed retrieval to guide users through complex administrative justice pathways.
-
-<p>
-  <a href="https://github.com/OgbondaGlory/LexVizExplorer"><img src="https://img.shields.io/badge/Repo-LexVizExplorer-24292f?style=for-the-badge&logo=github" alt="LexVizExplorer"/></a>
-  <img src="https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=061c23"/>
-  <img src="https://img.shields.io/badge/TypeScript-4.9-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
-  <img src="https://img.shields.io/badge/D3-Data%20Viz-F9A03C?style=for-the-badge&logo=d3.js&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Cytoscape-Graphs-5b8c85?style=for-the-badge"/>
-</p>
-
-Key ideas recently shipped:
-
-- aj_* ID standardization across Administrative Justice templates for clean registries and semantic matching
-- Hybrid semantic+keyword flow selection with graceful fallback when embeddings are stale
-- Flow integrity validator and Jest suites (green!) to prevent regressions
-- Embeddings pipeline with non-destructive updates to preserve curated descriptors
 
 ---
 
-### 2) POLIVIZ — AI‑Powered Privacy Policy Assistant
+## About
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=900&color=00E5FF&center=false&vCenter=true&width=600&lines=AI‑powered+privacy+policy+analysis+•+interactive+Q%26A+•+GDPR+insights" alt="POLIVIZ animated header"/>
+Full-stack developer and AI researcher with 9 years of experience building applied systems at the intersection of legal technology, machine learning, and data visualization. Currently a PhD researcher at Bangor University (AIMLAC CDT) focused on AI-assisted legal guidance and process visualization.
 
-Transform complex privacy policies into clear, actionable insights. POLIVIZ detects policies on any site, runs GPT‑4 analysis with confidence/risk scoring, answers questions in real time, and extracts GDPR‑relevant information — all with privacy-first design.
+**Based in:** United Kingdom &nbsp;·&nbsp; **Collaborating with:** universities and research labs  
+**Interests:** knowledge graphs · retrieval-augmented generation (RAG) · visual analytics · explainable AI  
+**Currently shipping:** LexVizExplorer · PoliViz · EmployODR
 
-<p>
-  <a href="https://ogbondaglory.github.io/POLIVIZ/" target="_blank"><img src="https://img.shields.io/badge/Live-PoliViz-00c853?style=for-the-badge&logo=vercel&logoColor=white" alt="PoliViz Live"/></a>
-  <a href="https://github.com/OgbondaGlory/PoliViz"><img src="https://img.shields.io/badge/Repo-PoliViz-24292f?style=for-the-badge&logo=github" alt="PoliViz Repo"/></a>
-  <img src="https://img.shields.io/badge/Python-FastAPI-059669?style=for-the-badge&logo=fastapi&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Desktop-Electron-2b2e3b?style=for-the-badge&logo=electron&logoColor=9FEAF9"/>
-  <img src="https://img.shields.io/badge/Browser-Extension-0ea5e9?style=for-the-badge&logo=googlechrome&logoColor=white"/>
-  <img src="https://img.shields.io/badge/OpenAI-GPT--4-6b7280?style=for-the-badge&logo=openai"/>
-  <img src="https://img.shields.io/badge/Vector%20Search-FAISS-6f42c1?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Embeddings-Sentence%20Transformers-9333ea?style=for-the-badge"/>
-</p>
+---
 
-<p>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="32" alt="Python"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" height="32" alt="FastAPI"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/electron/electron-original.svg" height="32" alt="Electron"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="32" alt="Node.js"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/chrome/chrome-original.svg" height="32" alt="Chrome"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/openai/openai-original.svg" height="32" alt="OpenAI"/>
-</p>
+## Languages — Most Used on GitHub
 
-- Visual argument mapping • provenance-aware snippets • literature-aware Q&A
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=OgbondaGlory&layout=compact&langs_count=8&theme=github_dark&hide_border=true&title_color=58a6ff&text_color=c9d1d9&bg_color=0d1117" alt="Top Languages" />
+
+</div>
+
+> Languages ranked by byte-count across all public repositories. Private project work (TypeScript, Python/FastAPI) extends this further.
+
+---
+
+## Tech Stack
+
+**Languages**
+
+<div>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="36" alt="Python" title="Python"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="36" alt="JavaScript" title="JavaScript"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="36" alt="TypeScript" title="TypeScript"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="36" alt="Java" title="Java"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" height="36" alt="Jupyter / Python ML" title="Jupyter Notebook"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="36" alt="HTML5" title="HTML5"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="36" alt="CSS3" title="CSS3"/>
+</div>
+
+**Frontend & Visualization**
+
+<div>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="36" alt="React" title="React"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" height="36" alt="Next.js" title="Next.js"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/d3js/d3js-original.svg" height="36" alt="D3.js" title="D3.js"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/electron/electron-original.svg" height="36" alt="Electron" title="Electron"/>
+<img src="https://img.shields.io/badge/React_Flow-ff0072?style=flat-square&logo=react&logoColor=white" height="28" alt="React Flow / XFlow" title="React Flow"/>
+<img src="https://img.shields.io/badge/Cytoscape.js-e8c12a?style=flat-square" height="28" alt="Cytoscape.js" title="Cytoscape.js"/>
+</div>
+
+**Backend & APIs**
+
+<div>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="36" alt="Node.js" title="Node.js"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" height="36" alt="Express" title="Express"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" height="36" alt="FastAPI" title="FastAPI"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="36" alt="PostgreSQL" title="PostgreSQL"/>
+</div>
+
+**AI / ML**
+
+<div>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" height="36" alt="TensorFlow" title="TensorFlow"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" height="36" alt="PyTorch" title="PyTorch"/>
+<img src="https://img.shields.io/badge/OpenAI_GPT--4o-412991?style=flat-square&logo=openai&logoColor=white" height="28" alt="OpenAI" title="OpenAI APIs"/>
+<img src="https://img.shields.io/badge/RAG_Pipelines-6f42c1?style=flat-square" height="28" alt="RAG" title="RAG Pipelines"/>
+<img src="https://img.shields.io/badge/FAISS_Vector_Search-ff4785?style=flat-square" height="28" alt="FAISS" title="FAISS / Embeddings"/>
+</div>
+
+**DevOps & Tooling**
+
+<div>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="36" alt="Docker" title="Docker"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/githubactions/githubactions-original.svg" height="36" alt="GitHub Actions" title="GitHub Actions"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" height="36" alt="Azure" title="Azure"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg" height="36" alt="AWS" title="AWS"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg" height="36" alt="Jest" title="Jest"/>
+<img src="https://img.shields.io/badge/Playwright-45ba4b?style=flat-square&logo=playwright&logoColor=white" height="28" alt="Playwright" title="Playwright"/>
+</div>
+
+---
+
+## Projects
+
+### LexVizExplorer — Visual Legal Guidance Platform
+
+[![Repo](https://img.shields.io/badge/GitHub-LexVizExplorer-24292f?style=flat-square&logo=github)](https://github.com/OgbondaGlory/LexVizExplorer)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=061c23)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![OpenAI](https://img.shields.io/badge/GPT--4o-412991?style=flat-square&logo=openai&logoColor=white)
+
+AI-powered legal-process explorer blending semantic flow selection, graph validation, and embeddings-backed retrieval to guide users through complex administrative justice pathways. React + TypeScript frontend with an Express/Node.js backend, deployed on Heroku.
+
+- aj_* ID standardization across 50+ Administrative Justice templates
+- Hybrid semantic + keyword flow selection with embedding-cache fallback
+- Flow integrity validator and Jest/Playwright regression suites
+- RAG pipeline with non-destructive embedding updates
+
+---
+
+### PoliViz — AI-Powered Privacy Policy Assistant
+
+[![Live](https://img.shields.io/badge/Live-ogbondaglory.github.io/POLIVIZ-00c853?style=flat-square&logo=vercel&logoColor=white)](https://ogbondaglory.github.io/POLIVIZ/)
+[![Repo](https://img.shields.io/badge/GitHub-PoliViz-24292f?style=flat-square&logo=github)](https://github.com/OgbondaGlory/PoliViz)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![FAISS](https://img.shields.io/badge/FAISS_Embeddings-6f42c1?style=flat-square)
+
+Detects privacy policies on any site and runs GPT-4 analysis with confidence and risk scoring. Answers questions in real time, extracts GDPR-relevant clauses, and provides actionable plain-language summaries. Available as a browser extension and Electron desktop app.
+
+- Visual argument mapping with provenance-aware source snippets
+- Literature-aware Q&A using sentence-transformer embeddings + FAISS
 - Designed for research labs and public policy teams
 
 ---
 
-### 3) EmployODR — AI‑Enhanced Access to Justice in Employment Law
+### EmployODR — AI-Enhanced Access to Justice
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=900&color=00E5FF&center=false&vCenter=true&width=600&lines=AI+guidance+•+personalized+ODR+recommendations+•+comparative+analytics" alt="EmployODR animated header"/>
+[![Live](https://img.shields.io/badge/Live-ogbondaglory.github.io/employodr-00c853?style=flat-square&logo=vercel&logoColor=white)](https://ogbondaglory.github.io/employodr/)
+[![Repo](https://img.shields.io/badge/GitHub-employodr-24292f?style=flat-square&logo=github)](https://github.com/OgbondaGlory/employodr)
+![OpenAI](https://img.shields.io/badge/GPT--3.5--Turbo-412991?style=flat-square&logo=openai&logoColor=white)
+![RAG](https://img.shields.io/badge/RAG_Pipeline-6f42c1?style=flat-square)
 
-AI-enhanced tool guiding people through employment law using GPT‑3.5‑Turbo with RAG. Provides personalized ODR tool recommendations, side‑by‑side comparisons with relevance/cost/accessibility scoring, and a curated knowledge base for England & Wales with real‑time triage.
+AI tool guiding people through employment law (England & Wales) using GPT-3.5-Turbo with RAG. Provides personalised ODR tool recommendations with relevance, cost, and accessibility scoring. Built under the UK Regulators Pioneer Fund 3 and featured in the 2025 Law Society Access to Justice report.
 
-<p>
-  <a href="https://ogbondaglory.github.io/employodr/" target="_blank"><img src="https://img.shields.io/badge/Live-Emploodr-00c853?style=for-the-badge&logo=vercel&logoColor=white" alt="Emploodr Live"/></a>
-  <a href="https://github.com/OgbondaGlory/Emploodr"><img src="https://img.shields.io/badge/Repo-EmployODR-24292f?style=for-the-badge&logo=github" alt="EmployODR Repo"/></a>
-  <img src="https://img.shields.io/badge/OpenAI-GPT--3.5-6b7280?style=for-the-badge&logo=openai"/>
-  <img src="https://img.shields.io/badge/Retrieval-RAG-6f42c1?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Comparative-Analytics-0ea5e9?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/ODR%20Tools-Integrated-10b981?style=for-the-badge"/>
-</p>
+---
 
-<!-- Tech stack intentionally omitted for EmployODR to avoid misrepresentation; see site for details. -->
+## Publications
 
-</div>
+| Year | Venue | Title |
+|------|-------|-------|
+| 2025 | IEEE VIS | Explanatory Visualization with LLMs for Employment Law |
+| 2025 | Law Society of England & Wales | 21st Century Justice Report: Modernizing Access to Justice *(EmployODR featured)* |
+| 2025 | ICAIL — AI for Access to Justice Workshop | Harnessing Generative AI to Enhance Access to ODR in Employment Law |
+| 2023 | Eurographics Digital Library | Crafting Visual Narratives: U.S. Immigration Data Poster |
+| 2023 | Eurographics Digital Library | Interweaving Data and Stories: U.S. Refugee Movements — Narrative Visualisation |
+| 2023 | Eurographics Digital Library | Immersive WebXR Data Visualisation Tool (A-Frame + D3.js) |
 
-<a id="skills"></a>
+---
 
-## 🧰 Software development skills
+## Experience
 
-- Languages: TypeScript, Python, SQL
-- Frontend: React, Next.js, D3, Cytoscape.js, XFlow/React Flow, Styled Components
-- Testing/Quality: Jest, React Testing Library, Playwright, ESLint, Prettier
-- Backend: Node.js/Express, FastAPI, REST APIs, WebSockets
-- AI/ML: OpenAI APIs, RAG, embeddings, semantic search, prompt/eval pipelines
-- DevOps/Infra: Docker, CI/CD, GitHub Actions, PostgreSQL, Vercel/Azure/AWS
-- Visualization: graph layouts, timelines, dashboards, interaction design
+**International Recruitment Officer** — Bangor University *(Apr 2025 – Present)*  
+Admissions guidance, CAS and visa support for international applicants; cross-team collaboration.
 
-<div>
-  <img src="https://skillicons.dev/icons?i=ts,react,next,nodejs,python,fastapi,postgres,docker,git,github,figma&perline=11" alt="skill icons"/>
-</div>
+**AI Researcher** — Solicitors Regulation Authority *(May 2024 – Feb 2025, Contract)*  
+Built the AI-assisted legal visualization tool (EmployODR) for employment-law needs assessment and ODR recommendations.
 
-<div>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="32" alt="JavaScript"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="32" alt="TypeScript"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="32" alt="Python"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="32" alt="React"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" height="32" alt="Next.js"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/d3js/d3js-original.svg" height="32" alt="D3.js"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cytoscape/cytoscape-original.svg" height="32" alt="Cytoscape"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="32" alt="Node.js"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" height="32" alt="Express"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="32" alt="PostgreSQL"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="32" alt="Docker"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/githubactions/githubactions-original.svg" height="32" alt="GitHub Actions"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" height="32" alt="Azure"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg" height="32" alt="AWS"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vercel/vercel-original.svg" height="32" alt="Vercel"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/eslint/eslint-original.svg" height="32" alt="ESLint"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/prettier/prettier-original.svg" height="32" alt="Prettier"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg" height="32" alt="Jest"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/playwright/playwright-original.svg" height="32" alt="Playwright"/>
-</div>
+**Teaching Assistant** — Bangor University, School of CS & Engineering *(Jan 2024 – Present)*  
+Demonstrator for ICE-3703 / ICE-4702 — Machine Learning and Advanced Machine Learning.
 
-<a id="research"></a>
+**Lead Software Developer** — Tawa Online *(Nov 2023 – Present, Part-time)*  
+End-to-end product engineering, feature delivery, and QA leadership.
 
-## 🔬 Research interests
+**Student Ambassador** — Bangor University *(Feb 2024 – Present)*  
+Campus tours, open days, and prospective-student advising.
 
-- Human-centered information retrieval and evaluation for RAG systems
-- Knowledge graphs + policy/legal process modeling
+**Co-Founder / Data Scientist** — Qrapp Technology Ltd *(Jan 2015 – Present)*  
+Co-founded and shipped data-driven SaaS products for SMEs; full SDLC ownership.
+
+[![Full CV on LinkedIn](https://img.shields.io/badge/Full%20CV-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ebube-glory-ogbonda-05bb2014b/)
+
+---
+
+## Education
+
+**PhD, Computer Science (AIMLAC CDT)** — Bangor University *(Sep 2023 – Sep 2027)*  
+Focus: AI/ML, visualization for legal advice systems. Course Rep Trainer · Peer Guide · International Student Mentor.
+
+**Visiting PGR, School of Physics (AIMLAC)** — University of Bristol *(Oct 2023 – Sep 2024)*  
+Grade: Distinction · Supervisor: Henning Flaecher · Programme: 2PHYS028R.
+
+---
+
+## Certifications
+
+[![View all on Credly](https://img.shields.io/badge/View%20All%20Badges-Credly-f59e0b?style=for-the-badge&logo=acclaim&logoColor=white)](https://www.credly.com/users/ebube_glory_ogbonda/badges)
+
+| Certification | Issued |
+|---------------|--------|
+| NITDA Machine Learning Professional | Dec 2023 |
+| IBM Data Science Professional Certificate | Apr 2023 |
+| IBM Data Analyst Professional Certificate | Apr 2023 |
+| Applied Data Science Specialization | Apr 2023 |
+| Data Visualization & Dashboard Essentials | Apr 2023 |
+
+---
+
+## Research Interests
+
+- Human-centred information retrieval and evaluation for RAG systems
+- Knowledge graphs and legal / policy process modelling
 - Visual analytics for explainable AI and decision support
 - Responsible AI: transparency, provenance, and bias mitigation
 
-<a id="certifications"></a>
+---
 
-## 🏅 Certifications (Credly)
+## GitHub Stats
 
-- NITDA Machine Learning Professional — Issued Dec 28, 2023
-- IBM Data Science Professional Certificate — Issued Apr 10, 2023
-- IBM Data Analyst Professional Certificate — Issued Apr 16, 2023
-- Applied Data Science Specialization — Issued Apr 16, 2023
-- Data Visualization & Dashboard Essentials — Issued Apr 4, 2023
+<div align="center">
 
-<p>
-  <a href="https://www.credly.com/users/ebube_glory_ogbonda/badges#credly" target="_blank">
-    <img src="https://img.shields.io/badge/View%20all%20badges-on%20Credly-111827?style=for-the-badge&logo=acclaim" alt="Credly profile"/>
-  </a>
-  <a href="https://www.credly.com/badges/524d00c1-2e0d-48c7-bde9-ae4d13909c45/linked_in_profile" target="_blank">
-    <img src="https://img.shields.io/badge/Featured%20badge-Direct%20link-f59e0b?style=for-the-badge" alt="Featured badge"/>
-  </a>
-</p>
+<img src="https://github-readme-stats.vercel.app/api?username=OgbondaGlory&show_icons=true&hide_title=true&theme=github_dark&hide_border=true&icon_color=58a6ff&text_color=c9d1d9&bg_color=0d1117" alt="GitHub Stats" />
 
-<a id="publications"></a>
+<img src="https://streak-stats.demolab.com?user=OgbondaGlory&theme=github-dark-blue&hide_border=true&background=0d1117&ring=58a6ff&fire=ff7b54&currStreakLabel=c9d1d9" alt="GitHub Streak" />
 
-## 📚 Publications & reports
+<img src="https://github-profile-trophy.vercel.app/?username=OgbondaGlory&theme=github_dark&no-frame=true&row=1&column=6&margin-w=8" alt="Trophies" />
 
-### Explanatory Visualization with LLMs for Employment Law
-- Venue: IEEE VIS 2025 — The premier forum for visualization and visual analytics (Jul 23, 2025)
-- Summary: Presents EmployODR, an AI-enhanced online tool for employment-law dispute guidance. Integrates GPT‑3.5 Turbo with structured legal data via a RAG pipeline; uses node‑link network maps and plain‑language summaries to communicate reasoning and guide users through complex scenarios. Explores how visualization principles can promote transparency in AI-driven legal decision-making and improve access to justice.
-
-### 21st Century Justice Report: Modernizing Access to Justice
-- Venue: Law Society of England and Wales (Jun 23, 2025)
-- Summary: EmployODR featured in the final report for its contribution to publicly funded online legal guidance. Highlights AI-powered legal guidance, innovation to bridge the justice gap, and publicly accessible tools as part of modernizing access to justice in England and Wales.
-
-### Harnessing Generative AI to Enhance Access to Online Dispute Resolution in Employment Law
-- Venue: ICAIL 2025 — AI for Access to Justice Workshop (Jun 20, 2025)
-- Summary: Describes the EmployODR prototype developed under the UK Regulators Pioneer Fund 3. Assesses the use of LLMs for recommending appropriate ODR tools in employment law, covering development insights and user testing to inform future research and deployment.
-
-### Crafting Visual Narratives: A Case Study on Developing an Engaging Visualisation Poster Using U.S. Immigration Data
-- Venue: Eurographics Digital Library (Aug 31, 2023)
-- Summary: A design study outlining a methodical process for turning raw immigration data into a compelling poster narrative. Emphasizes a “big hero” visualization, coherent narrative flow, and well-curated meta information to make the poster self-explanatory.
-
-### Interweaving Data and Stories: Unveiling the Human Dimension of U.S. Refugee Movements through Narrative Visualisation
-- Venue: Eurographics Digital Library (Aug 31, 2023)
-- Summary: An interactive narrative visualization using Mapbox and D3.js to connect geographic and temporal aspects of U.S. refugee data. Demonstrates modular preprocessing and interaction techniques to foster empathetic understanding of refugee dynamics.
-
-### Immersive WebXR Data Visualisation Tool
-- Venue: Eurographics Digital Library (Aug 31, 2023)
-- Summary: A WebXR tool built with A‑Frame, D3.js, and JavaScript for immersive exploration of complex datasets. Proposes a user study using NASA TLX to assess usability and workload; discusses future directions for guidance, layout optimization, and long-term UX.
-
-<a id="experience"></a>
-
-## 💼 Experience (selected)
-
-### International Recruitment Officer — Bangor University (Apr 2025 – Present)
-- Support international applicants with admissions, CAS, and visa processes; provide 1:1 guidance via phone/email; collaborate across teams to ensure a smooth journey.
-
-### Student Ambassador — Bangor University (Feb 2024 – Present)
-- Lead tours, represent the university at events, and advise prospective students; contribute feedback to improve student engagement.
-
-### Teaching Assistant — Bangor University (Jan 2024 – Present)
-- Demonstrator for ICE‑3703/4702 (Machine Learning/Advanced ML) in the School of Computer Science & Engineering.
-
-### Artificial Intelligence Researcher — Solicitors Regulation Authority (May 2024 – Feb 2025, Contract)
-- Built an AI‑assisted legal visualization tool for employment‑law needs assessment and ODR recommendations.
-
-### Lead Software Developer — Tawa Online (Nov 2023 – Present, Part‑time)
-- Lead engineering for product features and testing; drive end‑to‑end SDLC quality.
-
-### Co‑Founder / Data Scientist — Qrapp Technology Ltd (Jan 2015 – Present)
-- Co‑founded and shipped solutions for SMEs; designed test strategies, led development across full SDLC, and delivered data‑driven features.
-
-<p>
-  <a href="https://www.linkedin.com/in/ebube-glory-ogbonda-05bb2014b/" target="_blank">
-    <img src="https://img.shields.io/badge/Full%20CV-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn CV"/>
-  </a>
-</p>
-
-<a id="education"></a>
-
-## 🎓 Education
-
-### Bangor University — PhD, Computer Science (AIMLAC CDT) (Sep 2023 – Sep 2027)
-- Focus: AI/ML, visualization for legal advice systems; activities: Course Rep Trainer, Peer Guide, International Student Mentor.
-
-### University of Bristol — Visiting PGR (School of Physics, AIMLAC) (Oct 2023 – Sep 2024)
-- Grade: Distinction; Supervisor: Henning Flaecher; Programme: 2PHYS028R.
-
-## 📈 What I’m working on now
-
-- LexVizExplorer: Administrative Justice flow revamp (aj_* IDs), validator/test automation, semantic selection with robust fallbacks
-- PoliViz: Research timeline mining + debate-graph visualization + citation-aware retrieval
-- Emploodr: Skills/competency graph modeling and explainable matching prototypes
-
-## 🥋 Outside the code
-
-- Powerlifting (strength and discipline) • Judo (leverage and control) • Always iterating
+</div>
 
 ---
 
 <div align="center">
 
-### GitHub Pulse
+Powerlifting · Judo · Always iterating
 
-<img src="https://github-readme-stats.vercel.app/api?username=OgbondaGlory&show_icons=true&hide_title=true&theme=tokyonight" alt="stats"/>
-<img src="https://streak-stats.demolab.com?user=OgbondaGlory&theme=tokyonight&hide_border=true" alt="streak"/>
-<img src="https://github-profile-trophy.vercel.app/?username=OgbondaGlory&theme=tokyonight&no-frame=true&row=1&column=6" alt="trophies"/>
-
-<!-- Activity graph (optional, third-party uptime varies) -->
-<!-- <img src="https://github-readme-activity-graph.vercel.app/graph?username=OgbondaGlory&theme=github-compact" alt="activity-graph"/> -->
-
-<br/>
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00C3FF,100:6A5ACD&height=100&section=footer" alt="footer wave" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1f35,100:0d1117&height=100&section=footer" alt="footer"/>
 
 </div>
-
----
-
-## 🎉 Fun zone
-
-- 🥋 Judo and 🏋️ Powerlifting keep me sharp — balance, leverage, and patience carry into my engineering flow.
-- 🎨 I love making data “feel” interactive — tiny details, smooth motion, and just the right contrast.
-- 🌱 Always learning: better evals for RAG, smarter graph layouts, and ways to demystify model behavior.
 
