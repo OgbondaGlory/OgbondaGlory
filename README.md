@@ -1,7 +1,9 @@
 <!-- GitHub Profile README Draft for Ebube Glory Ogbonda -->
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:1a1f35&height=170&section=header&text=Ebube%20Glory%20Ogbonda&fontSize=40&fontColor=e6edf3&fontAlignY=45&desc=Researcher%20%7C%20ML%20%26%20Data%20Visualization%20Engineer%20%7C%20Legal%20Tech&descAlignY=70&descSize=15&descColor=8b949e" alt="header" />
+<h1>Ebube Glory Ogbonda</h1>
+<p><strong>PhD Researcher &nbsp;·&nbsp; Full-Stack Engineer &nbsp;·&nbsp; Legal AI</strong><br/>
+Bangor University AIMLAC CDT &nbsp;|&nbsp; ML &amp; Data Visualization &nbsp;|&nbsp; Knowledge Graphs &amp; RAG</p>
 
 <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=18&pause=1400&color=58a6ff&center=true&vCenter=true&width=780&lines=Building+LexVizExplorer+%7C+PoliViz+%7C+EmployODR;Human-centred+AI+%2B+Knowledge+Graphs+%2B+RAG+Pipelines;PhD+Researcher+%40+Bangor+University+AIMLAC+CDT;9+Years+Full-Stack+%7C+Legal+Tech+%7C+Data+Visualization" alt="typing animation" />
 
@@ -31,11 +33,12 @@ Full-stack developer and AI researcher with 9 years of experience building appli
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=OgbondaGlory&layout=compact&langs_count=8&theme=github_dark&hide_border=true&title_color=58a6ff&text_color=c9d1d9&bg_color=0d1117" alt="Top Languages" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=OgbondaGlory&theme=github_dark" alt="Repos per Language" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=OgbondaGlory&theme=github_dark" alt="Most Commit Language" />
 
 </div>
 
-> Languages ranked by byte-count across all public repositories. Private project work (TypeScript, Python/FastAPI) extends this further.
+> Language breakdown by repository count (left) and commit frequency (right). Private project work adds TypeScript and Python/FastAPI on top.
 
 ---
 
@@ -216,7 +219,7 @@ Grade: Distinction · Supervisor: Henning Flaecher · Programme: 2PHYS028R.
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=OgbondaGlory&show_icons=true&hide_title=true&theme=github_dark&hide_border=true&icon_color=58a6ff&text_color=c9d1d9&bg_color=0d1117" alt="GitHub Stats" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=OgbondaGlory&theme=github_dark" alt="Profile Summary" />
 
 <img src="https://streak-stats.demolab.com?user=OgbondaGlory&theme=github-dark-blue&hide_border=true&background=0d1117&ring=58a6ff&fire=ff7b54&currStreakLabel=c9d1d9" alt="GitHub Streak" />
 
@@ -228,9 +231,6 @@ Grade: Distinction · Supervisor: Henning Flaecher · Programme: 2PHYS028R.
 
 <div align="center">
 
-Powerlifting · Judo · Always iterating
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1f35,100:0d1117&height=100&section=footer" alt="footer"/>
+Powerlifting &nbsp;·&nbsp; Judo &nbsp;·&nbsp; Always iterating
 
 </div>
-
