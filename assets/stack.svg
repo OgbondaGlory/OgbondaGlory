@@ -68,7 +68,7 @@
   <path d="M 482 78 h 70 l 8 14 h -86 z" fill="#c0392b"/>
   <rect x="474" y="92" width="176" height="146" rx="4" fill="#fffef9" stroke="#e7dcc6" filter="url(#shadow)"/>
   <rect x="474" y="92" width="176" height="5" fill="#c0392b"/>
-  <text x="488" y="122" class="lex b ink" font-size="15">Visualize</text>
+  <text x="488" y="122" class="lex b ink" font-size="15">Visualise</text>
   <text x="488" y="146.0" text-anchor="start" class="lex lead" font-size="13.5" style="">D3.js</text>
 <text x="488" y="165.6" text-anchor="start" class="lex lead" font-size="13.5" style="">React Flow</text>
 <text x="488" y="185.2" text-anchor="start" class="lex lead" font-size="13.5" style="">Cytoscape.js</text>

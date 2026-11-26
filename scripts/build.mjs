@@ -163,7 +163,7 @@ ${sheet(14, 18, 872, 282, { turn: -0.4 })}
 <text x="92" y="209" class="lex lead rise" font-size="16.5" style="${delay(0.45)}">people can follow.</text>
 <text x="92" y="241" class="hand ink" font-size="21">Right now:</text>
 ${now.map((line, at) => `<text x="186" y="241" class="hand teal now${at ? '' : ' first'}" font-size="21" style="${delay(at * 3.5)}">${esc(line)}</text>`).join('\n')}
-${stamp(92, 258, 'LEGAL VISUALIZATION', C.teal, { size: 10.5, turn: -2, cls: 'fade', style: delay(0.8) })}
+${stamp(92, 258, 'LEGAL VISUALISATION', C.teal, { size: 10.5, turn: -2, cls: 'fade', style: delay(0.8) })}
 ${stamp(296, 260, 'ACCESS TO JUSTICE', C.tealDark, { size: 10.5, turn: 1.5, cls: 'fade', style: delay(0.95) })}
 ${stamp(480, 257, 'AIMLAC CDT', C.ink, { size: 10.5, turn: -1, cls: 'fade', style: delay(1.1) })}
 ${pencil(route, C.teal, 2.6, { cls: 'draw', style: delay(0.3) })}
@@ -243,48 +243,71 @@ ${pins.map((one, at) => `<g class="pop" style="${delay(0.5 + at * 0.35)}"><circl
   return svg({ w: W, h: H, title: 'LexViz Explorer, in pictures', desc: 'A cork board with three photos pinned up and joined by red string: the legal steps of a PIP appeal on the LexViz map; Court 1, a county court in the LexViz town; and chapter 8 of the story, at the court door.', css, body });
 }
 
-function route() {
+// The publications, one row for each kind, as the lanes of a LexViz map. The same outputs as Papers and talks in the README: keep the
+// two lists the same. `at` is the month (year, month); an output with no month known goes in the middle of the year.
+const TRACKS = [
+  { lane: 'Journal', items: [{ at: [2026, 11], lines: ['IRLCT, accepted', '25 Nov 2026'], now: true }] },
+  { lane: 'Conference papers', items: [{ at: [2023, 9], lines: ['2 short papers,', 'CGVC'], count: 2 }, { at: [2025, 6], lines: ['ICAIL workshop', 'paper, Chicago'] }] },
+  { lane: 'Posters', items: [{ at: [2023, 9], lines: ['CGVC poster'] }, { at: [2025, 11], lines: ['IEEE VIS,', 'Vienna'] }] },
+  { lane: 'Policy and reports', items: [{ at: [2025, 6], lines: ['Law Society report, OPRC', 'response, written evidence'], count: 3 }] },
+  { lane: 'Talks', items: [{ at: [2024, 5], lines: ['Liverpool and', 'Swansea'], count: 2 }] },
+];
+
+function tracks() {
   const W = 900;
-  const H = 392;
-  const stops = [
-    { date: 'SEP 2023', lines: ['PhD at Bangor,', 'funded by AIMLAC'] },
-    { date: 'OCT 2023', lines: ['A year at Bristol', 'School of Physics'] },
-    { date: 'MAY 2024', lines: ['EmployODR for', 'the SRA'] },
-    { date: 'MAY–JUN 2024', lines: ['First talks:', 'Liverpool, Swansea'] },
-    { date: 'JUN 2025', lines: ['ICAIL, Chicago;', 'Law Society report'] },
-    { date: 'AUG 2025', lines: ['First LexViz', 'prototypes'] },
-    { date: 'NOV 2025', lines: ['Poster at', 'IEEE VIS, Vienna'] },
-    { date: 'NOV 2026', lines: ['Paper accepted', 'in IRLCT'], now: true },
-    { date: '2027', lines: ['My thesis'], later: true },
-  ];
-  const x0 = 98;
-  const step = 91;
-  const points = stops.map((one, at) => ({ ...one, x: x0 + at * step, y: at % 2 ? 236 : 168 }));
-  const curve = (from, to) => `C ${from.x + step / 2} ${from.y}, ${to.x - step / 2} ${to.y}, ${to.x} ${to.y}`;
-  const done = points.slice(0, -1);
-  const donePath = done.map((one, at) => (at ? curve(done[at - 1], one) : `M ${one.x} ${one.y}`)).join(' ');
-  const last = points[points.length - 1];
-  const laterPath = `M ${done[done.length - 1].x} ${done[done.length - 1].y} ${curve(done[done.length - 1], last)}`;
+  const H = 556;
+  const x0 = 228;
+  const x1 = 858;
+  const months = 60;
+  const xOf = ([year, month]) => x0 + (((year - 2023) * 12 + month - 1) / months) * (x1 - x0);
+  const top = 138;
+  const lane = 70;
+  // The track runs low in the lane, so the words of each output sit above the track, clear of the line.
+  const yOf = (at) => top + 46 + at * lane;
+  const bottom = top + TRACKS.length * lane;
+  const now = xOf([2026, 11]);
+  const ahead = xOf([2027, 9]);
+  const node = (x, y, fill, edge, count = 1) => Array.from({ length: count }, (_, at) => count - 1 - at)
+    .map((back) => `<circle cx="${(x - back * 5).toFixed(1)}" cy="${(y - back * 4).toFixed(1)}" r="9" fill="${fill}" stroke="${edge}" stroke-width="1.8"/>`).join('');
+  const items = TRACKS.flatMap((row, at) => row.items.map((one) => ({ ...one, x: xOf(one.at), y: yOf(at) })));
   const body = `
-${sheet(14, 18, 872, 352, { turn: -0.3 })}
-<text x="74" y="70" class="hand ink rise" font-size="28">My research so far</text>
-<text x="76" y="96" class="lex lead rise" font-size="14" style="${delay(0.15)}">From the first month of my PhD to the thesis, as a route on a LexViz map.</text>
-${pencil(donePath, C.teal, 2.8, { cls: 'draw', style: delay(0.3) })}
-${pencil(laterPath, C.faint, 2, { dash: '5 7' })}
-${points.map((one, at) => {
-    const up = at % 2 === 0;
-    // The thesis has the gold arrow over the stop, so the words of the thesis go higher.
-    const ty = one.later ? one.y - 84 : up ? one.y - 58 : one.y + 36;
-    return `<g class="pop" style="${delay(0.5 + at * 0.28)}">
-  <g filter="url(#pencil)"><circle cx="${one.x}" cy="${one.y}" r="10" fill="${one.later ? C.paper : one.now ? C.red : C.teal}" stroke="${one.later ? C.faint : one.now ? '#7e2318' : C.tealDark}" stroke-width="1.8"${one.later ? ' stroke-dasharray="3 3"' : ''}/></g>
-  <text x="${one.x}" y="${ty}" text-anchor="middle" class="lex b" font-size="11.5" letter-spacing="1" fill="${one.now ? C.red : one.later ? C.faint : C.tealDark}">${esc(one.date)}</text>
-  ${textLines(one.x, ty + 21, one.lines, { size: 18, cls: `hand ${one.later ? 'faint' : 'ink'}`, gap: 1.0, anchor: 'middle' })}
-</g>`;
+${sheet(14, 18, 872, 520, { turn: -0.25 })}
+<text x="74" y="70" class="hand ink rise" font-size="28">My publications so far</text>
+<text x="76" y="96" class="lex lead rise" font-size="14" style="${delay(0.15)}">Each row is one kind of output, as the lanes of a LexViz map. Time runs from left to right.</text>
+<rect x="${now.toFixed(1)}" y="${top - 18}" width="${(x1 - now + 14).toFixed(1)}" height="${bottom - top + 18}" fill="${C.paperEdge}" fill-opacity="0.28" rx="4"/>
+${[2023, 2024, 2025, 2026, 2027].map((year) => `<line x1="${xOf([year, 1]).toFixed(1)}" y1="${top - 6}" x2="${xOf([year, 1]).toFixed(1)}" y2="${bottom}" stroke="${C.faint}" stroke-opacity="0.45" stroke-dasharray="2 5"/>
+<text x="${(xOf([year, 1]) + 4).toFixed(1)}" y="${top - 2}" class="lex b" font-size="12" letter-spacing="1" fill="${C.tealDark}">${year}</text>`).join('\n')}
+${TRACKS.map((row, at) => {
+    const y = yOf(at);
+    const first = Math.min(...row.items.map((one) => xOf(one.at)));
+    return `<line x1="74" y1="${top + at * lane + lane}" x2="${x1 + 10}" y2="${top + at * lane + lane}" stroke="${C.faint}" stroke-opacity="0.25"/>
+<text x="74" y="${y + 5}" class="lex b ink" font-size="13">${esc(row.lane)}</text>
+${pencil(`M ${first} ${y} L ${now} ${y}`, C.teal, 2.2, { cls: 'draw', style: delay(0.3 + at * 0.12) })}
+${pencil(`M ${now} ${y} L ${ahead} ${y}`, C.faint, 1.6, { dash: '4 7' })}`;
   }).join('\n')}
-${penRing(points[7].x, points[7].y, 22, 19, { style: delay(3.4) })}
-<text x="${points[7].x + 6}" y="${points[7].y + 92}" text-anchor="middle" class="hand red fade" font-size="19" style="${delay(3.8)}">you are here</text>
-${goldArrow(last.x, last.y - 16, { style: delay(0) })}`;
-  return svg({ w: W, h: H, title: 'My research so far', desc: 'A route from September 2023 to 2027: started my PhD at Bangor, funded by the AIMLAC Centre for Doctoral Training; a year at the School of Physics in Bristol; EmployODR for the Solicitors Regulation Authority in May 2024; first talks in Liverpool and Swansea; the ICAIL workshop in Chicago and the Law Society report in June 2025; the first LexViz prototypes in August 2025; a poster at IEEE VIS in Vienna in November 2025; a paper accepted in IRLCT in November 2026, ringed as you are here; and the thesis in 2027, still dashed.', body });
+${items.map((one) => {
+    const order = 0.6 + ((one.x - x0) / (x1 - x0)) * 2.2;
+    const left = !!one.now;
+    // The output of now has the red ring round the node, so the words keep clear of the ring.
+    const tx = left ? one.x - 28 : one.x + 12;
+    const ty = one.y - 12 - (one.lines.length - 1) * 16;
+    return `<g class="pop" style="${delay(order)}"><g filter="url(#pencil)">${node(one.x, one.y, one.now ? C.red : C.teal, one.now ? '#7e2318' : C.tealDark, one.count)}</g>
+  ${textLines(tx, ty, one.lines, { size: 16, cls: `hand ${one.now ? 'red' : 'ink'}`, gap: 1.0, anchor: left ? 'end' : 'start' })}</g>`;
+  }).join('\n')}
+${penRing(now, yOf(0), 20, 17, { style: delay(3.2) })}
+<line x1="${now.toFixed(1)}" y1="${top - 18}" x2="${now.toFixed(1)}" y2="${bottom + 8}" stroke="${C.red}" stroke-width="1.6" stroke-dasharray="5 4" class="fade" style="${delay(3)}"/>
+<text x="${now.toFixed(1)}" y="${bottom + 30}" text-anchor="middle" class="hand red fade" font-size="19" style="${delay(3.4)}">you are here</text>
+<g class="pop" style="${delay(3.6)}">
+  <g filter="url(#pencil)"><circle cx="${ahead.toFixed(1)}" cy="${yOf(1)}" r="9" fill="${C.paper}" stroke="${C.faint}" stroke-width="1.8" stroke-dasharray="3 3"/><circle cx="${(ahead - 5).toFixed(1)}" cy="${yOf(1) - 4}" r="9" fill="${C.paper}" stroke="${C.faint}" stroke-width="1.8" stroke-dasharray="3 3"/></g>
+  ${textLines(ahead, yOf(1) - 30, ['2 papers', 'under review'], { size: 16, cls: 'hand faint', gap: 1.0, anchor: 'middle' })}
+</g>
+<g class="pop" style="${delay(3.8)}">
+  <g filter="url(#pencil)"><circle cx="${ahead.toFixed(1)}" cy="${yOf(3)}" r="9" fill="${C.paper}" stroke="${C.faint}" stroke-width="1.8" stroke-dasharray="3 3"/></g>
+  ${textLines(ahead, yOf(3) + 26, ['My thesis,', '2027'], { size: 16, cls: 'hand faint', gap: 1.0, anchor: 'middle' })}
+</g>
+${goldArrow(ahead, yOf(3) - 14, { style: delay(0) })}`;
+  const list = TRACKS.flatMap((row) => row.items.map((one) => `${row.lane}: ${one.lines.join(' ')}`)).join('; ');
+  return svg({ w: W, h: H, title: 'My publications so far', desc: `My publications from 2023 to 2027, one row for each kind of output. ${list}. A red line marks now, November 2026. Ahead: 2 papers under review, and my thesis in 2027.`, body });
 }
 
 // What LexViz Explorer is made of, measured from the private repository on 26 November 2026: lines in the files git tracks, without
@@ -328,7 +351,7 @@ function stack() {
   const cards = [
     { head: 'Build', color: C.teal, items: ['TypeScript and React', 'Node.js and Express', 'Python and FastAPI', 'PostgreSQL', 'three.js'] },
     { head: 'AI', color: C.gold, items: ['OpenAI models', 'Retrieval (RAG)', 'Embeddings, FAISS', 'PyTorch', 'TensorFlow'] },
-    { head: 'Visualize', color: C.red, items: ['D3.js', 'React Flow', 'Cytoscape.js', 'A-Frame (WebXR)', 'Pencil and paper'] },
+    { head: 'Visualise', color: C.red, items: ['D3.js', 'React Flow', 'Cytoscape.js', 'A-Frame (WebXR)', 'Pencil and paper'] },
     { head: 'Test and ship', color: '#64748b', items: ['Jest', 'Playwright', 'GitHub Actions', 'Docker, Heroku', 'Azure, AWS'] },
   ];
   const body = `
@@ -454,7 +477,7 @@ if (!only) {
   write('hero.svg', hero());
   write('paper.svg', paper());
   write('board.svg', board());
-  write('route.svg', route());
+  write('tracks.svg', tracks());
   write('code.svg', code());
   write('stack.svg', stack());
   TAGS.forEach(([name, words, color]) => write(`tag-${name}.svg`, tag(words, color)));

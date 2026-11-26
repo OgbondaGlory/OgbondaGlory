@@ -10,70 +10,70 @@
 
 Hi, I'm Glory. I'm a PhD researcher in computer science at Bangor University, funded by the AIMLAC Centre for Doctoral Training.
 
-Many people in England and Wales face a legal problem with no lawyer beside them. They get a letter, a form or a deadline, and no picture of what happens next. I build AI systems that draw that picture: a map of the legal process people can follow. The map shows each legal step, who takes the step, what the step needs, how long the step lasts, and the law behind each rule. Then I test the maps with the people the maps are for.
+Many people in England and Wales encounter legal problems without legal representation. They may receive correspondence, be asked to complete a form, or need to meet a deadline without knowing how the legal process proceeds. I develop artificial intelligence systems that generate procedural maps to help people navigate these processes. For each step, the maps identify the responsible actor, specify the requirements and expected duration, and cite the legal basis for the applicable rules. I then evaluate the maps with their intended users.
 
-I have written software since 2015, when I co-founded Qrapp Technology.
+In 2015 I co-founded Qrapp Technology Ltd, where I continue to develop data-driven software products for small and medium-sized enterprises, from requirements to deployment.
 
-## A new paper
+## New publication
 
 <a href="https://doi.org/10.1080/13600869.2026.2771561"><img src="assets/paper.svg" width="100%" alt="New paper, accepted on 25 November 2026: Legal Visualisation in Practice: What LegalVis Reveals About Law, with Sarah Nason, in the International Review of Law, Computers and Technology."></a>
 
-**Legal Visualisation in Practice: What LegalVis Reveals About Law**, written with Sarah Nason, was accepted on 25 November 2026 by the *International Review of Law, Computers & Technology* (Taylor & Francis).
+**Legal Visualisation in Practice: What LegalVis Reveals About Law**, co-authored with Sarah Nason, was accepted for publication in the *International Review of Law, Computers & Technology* (Taylor & Francis) on 25 November 2026.
 
-In the paper, LegalVis means legal visualisation: the flowcharts, timelines, network maps and other pictures people use to explain legal rules, processes and relationships. The research is spread across legal design, visual law, legal informatics and legal analytics, so we brought it together. We reviewed 51 papers from 2013 to 2025 (a PRISMA review of Scopus, Web of Science and IEEE Xplore) and grouped them into nine clusters. Just over three in four of the papers used 2D pictures, and most of the pictures were made for experts rather than the public.
+The article examines legal visualisation (LegalVis): the use of flowcharts, timelines, network maps and other visual forms to explain legal rules, processes and relationships. Research in this area is spread across legal design, visual law, legal informatics and legal analytics. We conducted a systematic review following PRISMA 2020 across Scopus, Web of Science and IEEE Xplore (2013 to 2025), selected 51 papers, and identified nine clusters through cluster analysis. Just over three quarters of the reviewed studies used 2D visualisations, and most were designed for expert users rather than the public.
 
-We then set the papers beside three of our own projects: Artemus, a map of routes to redress in administrative justice in Wales; EmployODR (below); and a Kumu network map of where people find social welfare legal advice. The same problems came back in every kind of legal picture: interpretation, simplification, framing, explanation, evaluation and accountability. These problems come from the law itself, from uncertainty, discretion and contested meaning. A picture does not remove them. A picture makes them easier to see. So we argue that legal visualisation research now needs better evaluation, more work across disciplines, and visual forms that can show legal complexity without hiding how much of the law depends on interpretation.
+We then compared the literature with three of our own projects: Artemus, which visualises routes to redress in the bilingual administrative justice systems of Wales; EmployODR; and a Kumu network map of social welfare legal advice. The same challenges recurred across every form of LegalVis: interpretation, simplification, framing, explanation, evaluation and accountability. These challenges reflect enduring characteristics of law, including uncertainty, discretion and contestability. Visualisation does not resolve them, but it makes them more visible. We conclude that future LegalVis research should give greater attention to evaluation and interdisciplinary collaboration, and should develop visual forms that represent legal complexity without obscuring the interpretive nature of law.
 
-Once Taylor & Francis publishes the article online, you can read the article at [doi.org/10.1080/13600869.2026.2771561](https://doi.org/10.1080/13600869.2026.2771561).
+The published version will be available at [doi.org/10.1080/13600869.2026.2771561](https://doi.org/10.1080/13600869.2026.2771561).
 
-## What I'm building: LexViz Explorer
+## Current project: LexViz Explorer
 
 <a href="https://lexvizexplorer.com"><img src="assets/board.svg" width="100%" alt="Three photos pinned to a cork board: the legal steps of a PIP appeal on the LexViz map, Court 1 in the LexViz town, and chapter 8 of the story at the court door."></a>
 
-[LexViz Explorer](https://lexvizexplorer.com) is the web application at the centre of my PhD. You describe a legal problem in plain words. The AI finds the legal process that fits your problem, and LexViz Explorer draws the legal steps as a map: who does what, in what order, and by which date.
+[LexViz Explorer](https://lexvizexplorer.com) is the web application at the centre of my doctoral research. A user describes a legal problem in plain language. The system identifies the applicable legal process and presents the legal steps as a map that shows who acts, in what order, and by which deadline.
 
-- **One legal step at a time.** The map opens on the step you are at. To see the whole process, click Full journey. Diamonds mark choices. Deadlines are red and carry the word Deadline, so nobody has to rely on colour alone.
-- **The law behind every step.** Each statement of law links to the official page the statement is based on. Every 24 hours the system compares each quoted provision with the official text, letter for letter, and keeps every version when the law changes.
-- **A person approves each statement of law.** The AI cannot approve one, and an approval counts as independent only when two different people approved the same version.
-- **Read aloud.** Every step can be read aloud, and the application works in four languages.
+- **Progressive disclosure.** The map opens on the user's current step, and the Full journey view displays the complete process. Diamonds represent decision points. Deadlines are shown in red with the label "Deadline", so that colour is not the only cue.
+- **Traceable legal sources.** Each statement of law links to the official source on which the statement is based. Every 24 hours, the system compares each quoted provision with the official text, character by character, and retains every version when the law changes.
+- **Human approval of legal content.** Only a person can approve a statement of law. An approval counts as independent only when two different reviewers have approved the same version.
+- **Accessibility.** Every step can be read aloud, and the application is available in four languages.
 
-Since autumn 2026 there is a second way in: **a small 3D town in the browser**. You walk or drive to the places where legal problems get sorted out. There is a Housing Centre, a Rights Library, a post office, and a court building with nine courtrooms. Nine story chapters follow real kinds of legal problem: a parking ticket, a damp flat, missing pay, a small claim that ends at a county court hearing, and more. You read the papers, choose what a person does next, and see why each choice is right or wrong under the law. Friends can play a chapter together.
+Since autumn 2026, LexViz Explorer has also offered a second mode: a 3D town that runs in the browser. Users walk or drive to the places where legal problems are resolved, including a Housing Centre, a Rights Library, a post office and a court building with nine courtrooms. Nine story chapters are based on common types of legal problem, such as a parking ticket, a damp flat, unpaid wages, and a small claim that proceeds to a county court hearing. In each chapter, users read the documents, decide what a character should do next, and see why each choice is or is not supported by the law. Chapters can also be played together with friends.
 
-I build LexViz Explorer with React and TypeScript, three.js for the town, Node.js and Express, PostgreSQL and OpenAI models. The code stays in a private repository while the research runs, so here are the numbers instead:
+LexViz Explorer is built with React and TypeScript, three.js for the 3D town, Node.js and Express, PostgreSQL and OpenAI models. The source code remains in a private repository while the research is ongoing. The figure below summarises the codebase.
 
 <img src="assets/code.svg" width="100%" alt="What LexViz Explorer is made of, measured on 26 November 2026: 384,043 lines of TypeScript, 146,547 of JavaScript, 2,398 of Python and 989 of HTML and CSS; 1,371 commits since August 2025, 395 test files and 207 design notes.">
 
 ## Other projects
 
-**[EmployODR](https://ogbondaglory.github.io/employodr/)** ([code](https://github.com/OgbondaGlory/employodr)), 2024 to 2025. I built EmployODR for a Regulators' Pioneer Fund project led by the Solicitors Regulation Authority, with the Law Society and the Access to Justice Foundation. You describe a problem at work in your own words. A Python classifier sorts the problem into employment law categories, such as unfair dismissal, discrimination or redundancy. GPT-3.5 Turbo with retrieval (RAG) explains the law, and a network map shows which of eight online dispute resolution tools fit, compared by relevance, cost and accessibility. We tested EmployODR in workshops with employment solicitors, Citizens Advice advisers, law clinic staff and dispute resolution specialists. The Law Society of England and Wales featured EmployODR in a 2025 report on access to justice.
+**[EmployODR](https://ogbondaglory.github.io/employodr/)** ([code](https://github.com/OgbondaGlory/employodr)), 2024 to 2025. I developed EmployODR as part of a Regulators' Pioneer Fund project led by the Solicitors Regulation Authority, with the Law Society and the Access to Justice Foundation. Users describe an employment problem in their own words. A Python classifier assigns the problem to employment law categories such as unfair dismissal, discrimination or redundancy. GPT-3.5 Turbo with retrieval-augmented generation (RAG) explains the relevant law, and a network visualisation shows which of eight online dispute resolution tools are suitable, compared by relevance, cost and accessibility. We evaluated EmployODR in workshops with employment solicitors, Citizens Advice advisers, law clinic staff and dispute resolution specialists. The Law Society of England and Wales featured EmployODR in the *21st Century Justice* report (June 2025).
 
-**[PoliViz](https://ogbondaglory.github.io/POLIVIZ/)**. A browser extension and a desktop app for reading privacy policies. PoliViz finds the privacy policy of the website you're on and scores the risks. You see the clauses that matter under the GDPR, and you can ask questions in plain English. Each answer links to the passage of the policy behind the answer. I built PoliViz with GPT-4, a FastAPI backend, sentence-transformer embeddings and FAISS search.
+**[PoliViz](https://ogbondaglory.github.io/POLIVIZ/)**. A browser extension and desktop application that helps users understand privacy policies. PoliViz detects the privacy policy of the current website, scores potential risks, highlights the clauses relevant under the GDPR, and answers questions in plain English. Each answer links to the passage of the policy on which the answer is based. PoliViz uses GPT-4, a FastAPI backend, sentence-transformer embeddings and FAISS search.
 
-**Earlier visualization work (2023).** I told the story of [refugees resettled in the US from 1975 to 2018](https://github.com/OgbondaGlory/Visualising_USA_Refugee_Regions_Influx_data) as a narrative visualization. I also built [immersive data visualizations that run in the browser](https://github.com/OgbondaGlory/Immersive-Data-Vis-VR), with [A-Frame and WebXR](https://github.com/OgbondaGlory/WebXR-and-A-Frame). At CGVC 2023 the refugee story became a poster, and the WebXR tool a short paper. Both have DOIs, in the list below.
+**Earlier visualisation work (2023).** A narrative visualisation of [refugees resettled in the US from 1975 to 2018](https://github.com/OgbondaGlory/Visualising_USA_Refugee_Regions_Influx_data), and [immersive data visualisations for the web](https://github.com/OgbondaGlory/Immersive-Data-Vis-VR) built with [A-Frame and WebXR](https://github.com/OgbondaGlory/WebXR-and-A-Frame). This work led to one poster and two short papers at Computer Graphics and Visual Computing (CGVC) 2023, listed below.
 
-## My research
+## Doctoral research
 
-<img src="assets/route.svg" width="100%" alt="My research so far, as a route: started my PhD at Bangor, funded by AIMLAC, in September 2023; a year at Bristol; EmployODR for the SRA in May 2024; first talks in Liverpool and Swansea; the ICAIL workshop in Chicago and the Law Society report in June 2025; the first LexViz prototypes in August 2025; a poster at IEEE VIS in Vienna in November 2025; a paper accepted in November 2026, marked you are here; my thesis in 2027.">
+My thesis, provisionally titled *Drawing the Law as a Process: An Iterative Design Study of AI-Assisted Legal Process Visualization for Access to Justice in England and Wales*, addresses four research questions:
 
-My thesis has the working title *Drawing the Law as a Process: An Iterative Design Study of AI-Assisted Legal Process Visualization for Access to Justice in England and Wales*. I'm working on four questions:
+1. **Evidence.** What does existing research show about visualising legal information and legal processes for people without legal training, how was that work tested, and what is missing?
+2. **Design.** What do lay people, and the professionals who advise them, need from a visual illustration of a legal process, and which visual and interaction designs meet those needs?
+3. **Matching the law.** How can a system that uses large language models show people steps that comply with the law of England and Wales, and keep the steps compliant when the law changes?
+4. **Evaluation.** How should such a system be tested with lay people, advisers and legal experts, and what does the evidence gathered so far show?
 
-1. **Evidence.** What does research already show about visualizing legal information for people without legal training, and what is missing?
-2. **Design.** What do people with a legal problem, and the advisers who help them, need from a picture of a legal process?
-3. **Matching the law.** How can a system that uses large language models show steps that comply with the law of England and Wales, and stay correct when the law changes?
-4. **Evaluation.** How should such a system be tested with lay people, advisers and legal experts?
+To date, I have established sixteen design requirements, each supported by evidence, and documented how the design evolved over fifteen months of prototyping. I organised 1,539 screenshots into thirteen versions and traced 28 design ideas from their first appearance to the point at which each idea was kept, changed or dropped. Two studies are planned. In a co-design study, participants draw their own explanation of a legal process before seeing any example, so that their ideas are not shaped by my designs. The evaluation will measure the quality of participants' decisions, their understanding of conditions and exceptions, and how closely their trust in the tool matches the accuracy of the tool. Both studies are awaiting ethics approval.
 
-So far I have set out sixteen design requirements, each linked to evidence. I also traced how the design changed over fifteen months of prototypes. I grouped 1,539 screenshots into thirteen versions, and followed 28 ideas from the first sketch to the point where I kept, changed or dropped each one. Next come two studies. In a co-design study, people draw their own explanation of a legal process before they see mine. In the evaluation, I measure the quality of people's decisions, how well people understand conditions and exceptions, and how closely people's trust in the tool matches the accuracy of the tool. Both studies are waiting for ethics approval.
+## Publications and talks
 
-## Papers and talks
+<img src="assets/tracks.svg" width="100%" alt="My publications from 2023 to 2027, one row for each kind of output. Journal: IRLCT, accepted 25 November 2026. Conference papers: 2 short papers at CGVC in 2023, and the ICAIL workshop paper in Chicago in June 2025. Posters: the CGVC poster in 2023, and IEEE VIS in Vienna in 2025. Policy and reports: the Law Society report, the OPRC response and written evidence in 2025. Talks: Liverpool and Swansea in 2024. A red line marks now; ahead are 2 papers under review and my thesis in 2027.">
 
 **Journal**
 
 - **Legal Visualisation in Practice: What LegalVis Reveals About Law.** With S. Nason. *International Review of Law, Computers & Technology*, accepted 25 November 2026. [doi:10.1080/13600869.2026.2771561](https://doi.org/10.1080/13600869.2026.2771561)
 
-**Conferences and posters**
+**Conference papers and posters**
 
 - **Explanatory Visualization with LLMs for Employment Law.** E. G. Ogbonda, S. Nason, J. C. Roberts and P. W. S. Butcher. Poster, IEEE VIS 2025, Vienna. [Paper on Bangor's research portal](https://pure.bangor.ac.uk/ws/portalfiles/portal/83308386/IEEE_VIS_2025_Poster_Paper_Explainable_Vis_for_Law_with_AI.pdf)
-- **Harnessing Generative AI to Enhance Access to Online Dispute Resolution in Employment Law.** S. Nason, E. G. Ogbonda, J. C. Roberts and P. W. S. Butcher. Workshop on AI for Access to Justice, ICAIL 2025, Chicago, 20 June 2025. [Paper](https://ebubegloryogbonda.online/assets/docs/Harnessing-Generative-AI-ODR.pdf), and the [workshop write-up by the Stanford Legal Design Lab](https://justiceinnovation.law.stanford.edu/human-centered-ai-at-icails-access-to-justice-workshop)
+- **Harnessing Generative AI to Enhance Access to Online Dispute Resolution in Employment Law.** S. Nason, E. G. Ogbonda, J. C. Roberts and P. W. S. Butcher. Workshop on AI for Access to Justice, ICAIL 2025, Chicago, 20 June 2025. [Paper](https://ebubegloryogbonda.online/assets/docs/Harnessing-Generative-AI-ODR.pdf); [workshop report by the Stanford Legal Design Lab](https://justiceinnovation.law.stanford.edu/human-centered-ai-at-icails-access-to-justice-workshop)
 - **Crafting Visual Narratives: A Case Study on Developing an Engaging Visualisation Poster Using U.S. Immigration Data.** E. G. Ogbonda, P. W. S. Butcher and J. C. Roberts. Short paper, Computer Graphics and Visual Computing (CGVC) 2023. [doi:10.2312/CGVC.20231203](https://doi.org/10.2312/CGVC.20231203)
 - **Interweaving Data and Stories: A Case Study on Unveiling the Human Dimension of U.S. Refugee Movements through Narrative Visualisation.** E. G. Ogbonda, J. C. Roberts and P. W. S. Butcher. Poster, CGVC 2023. [doi:10.2312/CGVC.20231192](https://doi.org/10.2312/CGVC.20231192)
 - **Immersive WebXR Data Visualisation Tool.** E. G. Ogbonda. Short paper, CGVC 2023. [doi:10.2312/CGVC.20231202](https://doi.org/10.2312/CGVC.20231202)
@@ -88,7 +88,7 @@ So far I have set out sixteen design requirements, each linked to evidence. I al
 
 - **Opportunities and Impact for Visualization across Law and Judicial Processes.** With J. C. Roberts, S. Nason and P. W. S. Butcher. Turing Connections, University of Liverpool (May 2024), and the AI Conference, Swansea University (June 2024).
 
-Two more papers are under review. The full list is on [my website](https://ebubegloryogbonda.online/publications.php) and [ORCID](https://orcid.org/0009-0002-9781-7537).
+Two further papers are under review. The complete list is on [my website](https://ebubegloryogbonda.online/publications.php) and [ORCID](https://orcid.org/0009-0002-9781-7537).
 
 ## My last 12 months on GitHub
 
@@ -96,16 +96,16 @@ Two more papers are under review. The full list is on [my website](https://ebube
 
 ## What I build with
 
-<img src="assets/stack.svg" width="100%" alt="What I build with. Build: TypeScript and React, Node.js and Express, Python and FastAPI, PostgreSQL, three.js. AI: OpenAI models, retrieval (RAG), embeddings and FAISS, PyTorch, TensorFlow. Visualize: D3.js, React Flow, Cytoscape.js, A-Frame (WebXR), pencil and paper. Test and ship: Jest, Playwright, GitHub Actions, Docker and Heroku, Azure and AWS.">
+<img src="assets/stack.svg" width="100%" alt="What I build with. Build: TypeScript and React, Node.js and Express, Python and FastAPI, PostgreSQL, three.js. AI: OpenAI models, retrieval (RAG), embeddings and FAISS, PyTorch, TensorFlow. Visualise: D3.js, React Flow, Cytoscape.js, A-Frame (WebXR), pencil and paper. Test and ship: Jest, Playwright, GitHub Actions, Docker and Heroku, Azure and AWS.">
 
 ## Teaching and work
 
-- **Teaching assistant**, School of Computer Science and Engineering, Bangor University (since January 2024). I help run the lab sessions of the Machine Learning and Advanced Machine Learning modules (ICE-3703 and ICE-4702).
-- **AI researcher**, Solicitors Regulation Authority (May 2024 to February 2025, contract). I built EmployODR.
-- **International Recruitment Officer**, Bangor University (since April 2025). I help international applicants with admissions, CAS letters and visas.
+- **Teaching assistant**, School of Computer Science and Engineering, Bangor University (since January 2024). I support laboratory sessions for the Machine Learning and Advanced Machine Learning modules (ICE-3703 and ICE-4702).
+- **AI researcher**, Solicitors Regulation Authority (May 2024 to February 2025, contract). I developed EmployODR.
+- **International Recruitment Officer**, Bangor University (since April 2025). I advise international applicants on admissions, CAS letters and visas.
 - **Lead software developer**, Tawa Online (part-time, since November 2023).
-- **Student Ambassador**, Bangor University (since February 2024). Campus tours and open days.
-- **Co-founder and data scientist**, Qrapp Technology Ltd (since 2015). Data tools for small businesses.
+- **Student Ambassador**, Bangor University (since February 2024). I lead campus tours and support open days.
+- **Co-founder and data scientist**, Qrapp Technology Ltd (since 2015). Data-driven software products for small and medium-sized enterprises.
 
 ## Education
 
@@ -114,8 +114,8 @@ Two more papers are under review. The full list is on [my website](https://ebube
 - **Certificates**: NITDA Machine Learning Professional; IBM Data Science Professional Certificate; IBM Data Analyst Professional Certificate; Applied Data Science Specialization; Data Visualization and Dashboard Essentials (all 2023, [on Credly](https://www.credly.com/users/ebube_glory_ogbonda/badges)).
 
 <p align="center">
-  <sub>Away from the keyboard: powerlifting and judo.</sub><br>
+  <sub>Outside research: powerlifting and judo.</sub><br>
   <img src="https://komarev.com/ghpvc/?username=OgbondaGlory&style=flat-square&color=0F766E&label=profile+views" alt="Profile views">
 </p>
 
-<sub>The pictures on this page are drawn by <a href="scripts/build.mjs">scripts/build.mjs</a> in the LexViz paper style, with Lexend and Caveat (SIL Open Font License). The activity calendar is drawn again every day by a GitHub Action.</sub>
+<sub>The figures on this page are generated by <a href="scripts/build.mjs">scripts/build.mjs</a> in the LexViz paper style, using Lexend and Caveat (SIL Open Font License). A GitHub Action regenerates the activity calendar every day.</sub>
