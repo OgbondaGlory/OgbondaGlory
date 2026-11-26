@@ -59,7 +59,7 @@ const DEFS = `
   <feColorMatrix in="n" values="0 0 0 0 0.42  0 0 0 0 0.35  0 0 0 0 0.25  0 0 0 0.09 0"/>
   <feComposite in2="SourceGraphic" operator="in"/>
 </filter>
-<filter id="pencil" filterUnits="userSpaceOnUse" x="-40" y="-40" width="1000" height="520">
+<filter id="pencil" filterUnits="userSpaceOnUse" x="-40" y="-40" width="1000" height="760">
   <feTurbulence type="fractalNoise" baseFrequency="0.04" numOctaves="2" seed="9" result="w"/>
   <feDisplacementMap in="SourceGraphic" in2="w" scale="2.4" xChannelSelector="R" yChannelSelector="G"/>
 </filter>
@@ -251,11 +251,19 @@ const TRACKS = [
   { lane: 'Posters', items: [{ at: [2023, 9], lines: ['CGVC poster'] }, { at: [2025, 11], lines: ['IEEE VIS,', 'Vienna'] }] },
   { lane: 'Policy and reports', items: [{ at: [2025, 6], lines: ['Law Society report, OPRC', 'response, written evidence'], count: 3 }] },
   { lane: 'Talks', items: [{ at: [2024, 5], lines: ['Liverpool and', 'Swansea'], count: 2 }] },
+  // The thesis: the track from the start of the PhD, and the thesis ahead (drawn in tracks()).
+  { lane: 'PhD thesis', items: [{ at: [2023, 9], lines: ['PhD starts,', 'Bangor'] }] },
 ];
+/**
+ * The rows of the outputs still ahead: the 2 journal papers under review, and the thesis. While a paper is under review, the profile names
+ * no journal, title or manuscript ID (the owner, 27 November 2026), so a reviewer cannot link the profile to the submission.
+ */
+const JOURNAL_ROW = 0;
+const THESIS_ROW = 5;
 
 function tracks() {
   const W = 900;
-  const H = 556;
+  const H = 626;
   const x0 = 228;
   const x1 = 858;
   const months = 60;
@@ -271,7 +279,7 @@ function tracks() {
     .map((back) => `<circle cx="${(x - back * 5).toFixed(1)}" cy="${(y - back * 4).toFixed(1)}" r="9" fill="${fill}" stroke="${edge}" stroke-width="1.8"/>`).join('');
   const items = TRACKS.flatMap((row, at) => row.items.map((one) => ({ ...one, x: xOf(one.at), y: yOf(at) })));
   const body = `
-${sheet(14, 18, 872, 520, { turn: -0.25 })}
+${sheet(14, 18, 872, 590, { turn: -0.25 })}
 <text x="74" y="70" class="hand ink rise" font-size="28">My publications so far</text>
 <text x="76" y="96" class="lex lead rise" font-size="14" style="${delay(0.15)}">Each row is one kind of output, as the lanes of a LexViz map. Time runs from left to right.</text>
 <rect x="${now.toFixed(1)}" y="${top - 18}" width="${(x1 - now + 14).toFixed(1)}" height="${bottom - top + 18}" fill="${C.paperEdge}" fill-opacity="0.28" rx="4"/>
@@ -298,16 +306,16 @@ ${penRing(now, yOf(0), 20, 17, { style: delay(3.2) })}
 <line x1="${now.toFixed(1)}" y1="${top - 18}" x2="${now.toFixed(1)}" y2="${bottom + 8}" stroke="${C.red}" stroke-width="1.6" stroke-dasharray="5 4" class="fade" style="${delay(3)}"/>
 <text x="${now.toFixed(1)}" y="${bottom + 30}" text-anchor="middle" class="hand red fade" font-size="19" style="${delay(3.4)}">you are here</text>
 <g class="pop" style="${delay(3.6)}">
-  <g filter="url(#pencil)"><circle cx="${ahead.toFixed(1)}" cy="${yOf(1)}" r="9" fill="${C.paper}" stroke="${C.faint}" stroke-width="1.8" stroke-dasharray="3 3"/><circle cx="${(ahead - 5).toFixed(1)}" cy="${yOf(1) - 4}" r="9" fill="${C.paper}" stroke="${C.faint}" stroke-width="1.8" stroke-dasharray="3 3"/></g>
-  ${textLines(ahead, yOf(1) - 30, ['2 papers', 'under review'], { size: 16, cls: 'hand faint', gap: 1.0, anchor: 'middle' })}
+  <g filter="url(#pencil)"><circle cx="${ahead.toFixed(1)}" cy="${yOf(JOURNAL_ROW)}" r="9" fill="${C.paper}" stroke="${C.faint}" stroke-width="1.8" stroke-dasharray="3 3"/><circle cx="${(ahead - 5).toFixed(1)}" cy="${yOf(JOURNAL_ROW) - 4}" r="9" fill="${C.paper}" stroke="${C.faint}" stroke-width="1.8" stroke-dasharray="3 3"/></g>
+  ${textLines(ahead, yOf(JOURNAL_ROW) - 30, ['2 journal papers', 'under review'], { size: 16, cls: 'hand faint', gap: 1.0, anchor: 'middle' })}
 </g>
 <g class="pop" style="${delay(3.8)}">
-  <g filter="url(#pencil)"><circle cx="${ahead.toFixed(1)}" cy="${yOf(3)}" r="9" fill="${C.paper}" stroke="${C.faint}" stroke-width="1.8" stroke-dasharray="3 3"/></g>
-  ${textLines(ahead, yOf(3) + 26, ['My thesis,', '2027'], { size: 16, cls: 'hand faint', gap: 1.0, anchor: 'middle' })}
+  <g filter="url(#pencil)"><circle cx="${ahead.toFixed(1)}" cy="${yOf(THESIS_ROW)}" r="9" fill="${C.paper}" stroke="${C.faint}" stroke-width="1.8" stroke-dasharray="3 3"/></g>
+  ${textLines(ahead, yOf(THESIS_ROW) + 28, ['My thesis, 2027'], { size: 16, cls: 'hand faint', gap: 1.0, anchor: 'middle' })}
 </g>
-${goldArrow(ahead, yOf(3) - 14, { style: delay(0) })}`;
+${goldArrow(ahead, yOf(THESIS_ROW) - 14, { style: delay(0) })}`;
   const list = TRACKS.flatMap((row) => row.items.map((one) => `${row.lane}: ${one.lines.join(' ')}`)).join('; ');
-  return svg({ w: W, h: H, title: 'My publications so far', desc: `My publications from 2023 to 2027, one row for each kind of output. ${list}. A red line marks now, November 2026. Ahead: 2 papers under review, and my thesis in 2027.`, body });
+  return svg({ w: W, h: H, title: 'My publications so far', desc: `My publications from 2023 to 2027, one row for each kind of output. ${list}. A red line marks now, November 2026. Ahead: 2 journal papers under review, and my thesis in 2027.`, body });
 }
 
 // What LexViz Explorer is made of, measured from the private repository on 26 November 2026: lines in the files git tracks, without
@@ -462,11 +470,11 @@ ${goldArrow(tx, ty - 3, { style: delay(0) })}
 <text x="${tx + 10}" y="${ty - 26}" class="hand ink fade" font-size="16" style="${delay(2.2)}">today</text>
 ${stamp(96, 220, `${n(total)} CONTRIBUTIONS`, C.teal, { size: 12, turn: -2, cls: 'fade', style: delay(2) })}
 ${stamp(326, 222, `BUSIEST DAY: ${n(busiest.count)}`, C.red, { size: 12, turn: 1.5, cls: 'fade', style: delay(2.2) })}
-${stamp(512, 219, `LONGEST RUN: ${longest} DAYS`, C.tealDark, { size: 12, turn: -1.5, cls: 'fade', style: delay(2.4) })}
+${stamp(512, 219, `LONGEST STREAK: ${longest} DAYS`, C.tealDark, { size: 12, turn: -1.5, cls: 'fade', style: delay(2.4) })}
 <text x="716" y="90" class="lex lead" font-size="11.5">Less</text>
 ${shades.map((shade, at) => `<rect x="${748 + at * 15}" y="80" width="${cell}" height="${cell}" rx="2.5" fill="${shade}"${at ? '' : ` stroke="${C.paperEdge}" stroke-width="0.8"`}/>`).join('')}
 <text x="${748 + 5 * 15 + 2}" y="90" class="lex lead" font-size="11.5">More</text>`;
-  return svg({ w: W, h: H, title: 'My last 12 months on GitHub', desc: `${n(total)} contributions from ${dayWords(days[0].date)} to ${dayWords(today.date)}, on ${active} days. The busiest day was ${dayWords(busiest.date)}, with ${n(busiest.count)}. The longest run of days in a row was ${longest} days.`, body });
+  return svg({ w: W, h: H, title: 'My last 12 months on GitHub', desc: `${n(total)} contributions from ${dayWords(days[0].date)} to ${dayWords(today.date)}, on ${active} days. The busiest day was ${dayWords(busiest.date)}, with ${n(busiest.count)}. The longest streak of days in a row with contributions was ${longest} days.`, body });
 }
 
 // ---------- write ----------

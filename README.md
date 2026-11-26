@@ -66,7 +66,7 @@ To date, I have established sixteen design requirements, each supported by evide
 
 ## Publications and talks
 
-<img src="assets/tracks.svg" width="100%" alt="My publications from 2023 to 2027, one row for each kind of output. Journal: IRLCT, accepted 25 November 2026. Conference papers: 2 short papers at CGVC in 2023, and the ICAIL workshop paper in Chicago in June 2025. Posters: the CGVC poster in 2023, and IEEE VIS in Vienna in 2025. Policy and reports: the Law Society report, the OPRC response and written evidence in 2025. Talks: Liverpool and Swansea in 2024. A red line marks now; ahead are 2 papers under review and my thesis in 2027.">
+<img src="assets/tracks.svg" width="100%" alt="My publications from 2023 to 2027, one row for each kind of output. Journal: IRLCT, accepted 25 November 2026. Conference papers: 2 short papers at CGVC in 2023, and the ICAIL workshop paper in Chicago in June 2025. Posters: the CGVC poster in 2023, and IEEE VIS in Vienna in 2025. Policy and reports: the Law Society report, the OPRC response and written evidence in 2025. Talks: Liverpool and Swansea in 2024. PhD thesis: from the start of the PhD at Bangor in September 2023. A red line marks now; ahead are 2 journal papers under review and my thesis in 2027.">
 
 **Journal**
 
@@ -90,11 +90,11 @@ To date, I have established sixteen design requirements, each supported by evide
 
 - **Opportunities and Impact for Visualization across Law and Judicial Processes.** With J. C. Roberts, S. Nason and P. W. S. Butcher. Turing Connections, University of Liverpool (May 2024), and the AI Conference, Swansea University (June 2024).
 
-Two further papers are under review. The complete list is on [my website](https://ebubegloryogbonda.online/publications.php) and [ORCID](https://orcid.org/0009-0002-9781-7537).
+Two further journal papers are under review. The complete list is on [my website](https://ebubegloryogbonda.online/publications.php) and [ORCID](https://orcid.org/0009-0002-9781-7537).
 
 ## My last 12 months on GitHub
 
-<img src="assets/activity.svg" width="100%" alt="A calendar of my contributions on GitHub over the last 12 months, with the total, the busiest day and the longest run of days in a row. A GitHub Action draws the calendar again every day.">
+<img src="assets/activity.svg" width="100%" alt="A calendar of my contributions on GitHub over the last 12 months, with the total, the busiest day and the longest streak of days in a row with contributions. A GitHub Action draws the calendar again every day.">
 
 ## What I build with
 

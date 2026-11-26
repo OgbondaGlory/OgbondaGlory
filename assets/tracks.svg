@@ -1,13 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="556" viewBox="0 0 900 556" role="img" aria-labelledby="t d">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="626" viewBox="0 0 900 626" role="img" aria-labelledby="t d">
 <title id="t">My publications so far</title>
-<desc id="d">My publications from 2023 to 2027, one row for each kind of output. Journal: IRLCT, accepted 25 Nov 2026; Conference papers: 2 short papers, CGVC; Conference papers: ICAIL workshop paper, Chicago; Posters: CGVC poster; Posters: IEEE VIS, Vienna; Policy and reports: Law Society report, OPRC response, written evidence; Talks: Liverpool and Swansea. A red line marks now, November 2026. Ahead: 2 papers under review, and my thesis in 2027.</desc>
+<desc id="d">My publications from 2023 to 2027, one row for each kind of output. Journal: IRLCT, accepted 25 Nov 2026; Conference papers: 2 short papers, CGVC; Conference papers: ICAIL workshop paper, Chicago; Posters: CGVC poster; Posters: IEEE VIS, Vienna; Policy and reports: Law Society report, OPRC response, written evidence; Talks: Liverpool and Swansea; PhD thesis: PhD starts, Bangor. A red line marks now, November 2026. Ahead: 2 journal papers under review, and my thesis in 2027.</desc>
 <defs>
 <filter id="grain" x="0" y="0" width="100%" height="100%">
   <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" seed="4" result="n"/>
   <feColorMatrix in="n" values="0 0 0 0 0.42  0 0 0 0 0.35  0 0 0 0 0.25  0 0 0 0.09 0"/>
   <feComposite in2="SourceGraphic" operator="in"/>
 </filter>
-<filter id="pencil" filterUnits="userSpaceOnUse" x="-40" y="-40" width="1000" height="520">
+<filter id="pencil" filterUnits="userSpaceOnUse" x="-40" y="-40" width="1000" height="760">
   <feTurbulence type="fractalNoise" baseFrequency="0.04" numOctaves="2" seed="9" result="w"/>
   <feDisplacementMap in="SourceGraphic" in2="w" scale="2.4" xChannelSelector="R" yChannelSelector="G"/>
 </filter>
@@ -35,24 +35,24 @@
 @media (prefers-reduced-motion:reduce){*{animation:none!important}}
 </style>
 
-<g transform="rotate(-0.25 450 278)">
-  <rect x="14" y="18" width="872" height="520" rx="6" fill="#fffdf8" stroke="#e7dcc6" filter="url(#shadow)"/>
-  <rect x="14" y="18" width="872" height="520" rx="6" fill="#fffdf8" filter="url(#grain)"/>
-  <line x1="58" y1="24" x2="58" y2="532" stroke="#c0392b" stroke-opacity="0.35" stroke-width="1.4"/>
+<g transform="rotate(-0.25 450 313)">
+  <rect x="14" y="18" width="872" height="590" rx="6" fill="#fffdf8" stroke="#e7dcc6" filter="url(#shadow)"/>
+  <rect x="14" y="18" width="872" height="590" rx="6" fill="#fffdf8" filter="url(#grain)"/>
+  <line x1="58" y1="24" x2="58" y2="602" stroke="#c0392b" stroke-opacity="0.35" stroke-width="1.4"/>
   <rect x="48" y="8" width="92" height="24" fill="#e9dcb8" fill-opacity="0.78" transform="rotate(-5 94 20)"/><rect x="760" y="8" width="92" height="24" fill="#e9dcb8" fill-opacity="0.78" transform="rotate(4 806 20)"/>
 </g>
 <text x="74" y="70" class="hand ink rise" font-size="28">My publications so far</text>
 <text x="76" y="96" class="lex lead rise" font-size="14" style="animation-delay:0.15s">Each row is one kind of output, as the lanes of a LexViz map. Time runs from left to right.</text>
-<rect x="711.0" y="120" width="161.0" height="368" fill="#e7dcc6" fill-opacity="0.28" rx="4"/>
-<line x1="228.0" y1="132" x2="228.0" y2="488" stroke="#a39b8b" stroke-opacity="0.45" stroke-dasharray="2 5"/>
+<rect x="711.0" y="120" width="161.0" height="438" fill="#e7dcc6" fill-opacity="0.28" rx="4"/>
+<line x1="228.0" y1="132" x2="228.0" y2="558" stroke="#a39b8b" stroke-opacity="0.45" stroke-dasharray="2 5"/>
 <text x="232.0" y="136" class="lex b" font-size="12" letter-spacing="1" fill="#0b3b3a">2023</text>
-<line x1="354.0" y1="132" x2="354.0" y2="488" stroke="#a39b8b" stroke-opacity="0.45" stroke-dasharray="2 5"/>
+<line x1="354.0" y1="132" x2="354.0" y2="558" stroke="#a39b8b" stroke-opacity="0.45" stroke-dasharray="2 5"/>
 <text x="358.0" y="136" class="lex b" font-size="12" letter-spacing="1" fill="#0b3b3a">2024</text>
-<line x1="480.0" y1="132" x2="480.0" y2="488" stroke="#a39b8b" stroke-opacity="0.45" stroke-dasharray="2 5"/>
+<line x1="480.0" y1="132" x2="480.0" y2="558" stroke="#a39b8b" stroke-opacity="0.45" stroke-dasharray="2 5"/>
 <text x="484.0" y="136" class="lex b" font-size="12" letter-spacing="1" fill="#0b3b3a">2025</text>
-<line x1="606.0" y1="132" x2="606.0" y2="488" stroke="#a39b8b" stroke-opacity="0.45" stroke-dasharray="2 5"/>
+<line x1="606.0" y1="132" x2="606.0" y2="558" stroke="#a39b8b" stroke-opacity="0.45" stroke-dasharray="2 5"/>
 <text x="610.0" y="136" class="lex b" font-size="12" letter-spacing="1" fill="#0b3b3a">2026</text>
-<line x1="732.0" y1="132" x2="732.0" y2="488" stroke="#a39b8b" stroke-opacity="0.45" stroke-dasharray="2 5"/>
+<line x1="732.0" y1="132" x2="732.0" y2="558" stroke="#a39b8b" stroke-opacity="0.45" stroke-dasharray="2 5"/>
 <text x="736.0" y="136" class="lex b" font-size="12" letter-spacing="1" fill="#0b3b3a">2027</text>
 <line x1="74" y1="208" x2="868" y2="208" stroke="#a39b8b" stroke-opacity="0.25"/>
 <text x="74" y="189" class="lex b ink" font-size="13">Journal</text>
@@ -104,6 +104,16 @@
   <path d="M 711 464 L 816 464" fill="none" stroke="#a39b8b" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4 7" class="" style=""/>
   <path d="M 711 464 L 816 464" fill="none" stroke="#a39b8b" stroke-opacity="0.35" stroke-width="0.88" stroke-linecap="round" transform="translate(0.9 0.7)" stroke-dasharray="4 7" class="" style=""/>
 </g>
+<line x1="74" y1="558" x2="868" y2="558" stroke="#a39b8b" stroke-opacity="0.25"/>
+<text x="74" y="539" class="lex b ink" font-size="13">PhD thesis</text>
+<g filter="url(#pencil)">
+  <path d="M 312 534 L 711 534" fill="none" stroke="#0f766e" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="draw" style="animation-delay:0.90s"/>
+  <path d="M 312 534 L 711 534" fill="none" stroke="#0f766e" stroke-opacity="0.35" stroke-width="1.21" stroke-linecap="round" transform="translate(0.9 0.7)" pathLength="1" class="draw" style="animation-delay:0.90s"/>
+</g>
+<g filter="url(#pencil)">
+  <path d="M 711 534 L 816 534" fill="none" stroke="#a39b8b" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4 7" class="" style=""/>
+  <path d="M 711 534 L 816 534" fill="none" stroke="#a39b8b" stroke-opacity="0.35" stroke-width="0.88" stroke-linecap="round" transform="translate(0.9 0.7)" stroke-dasharray="4 7" class="" style=""/>
+</g>
 <g class="pop" style="animation-delay:2.29s"><g filter="url(#pencil)"><circle cx="711.0" cy="184.0" r="9" fill="#c0392b" stroke="#7e2318" stroke-width="1.8"/></g>
   <text x="683" y="156.0" text-anchor="end" class="hand red" font-size="16" style="">IRLCT, accepted</text>
 <text x="683" y="172.0" text-anchor="end" class="hand red" font-size="16" style="">25 Nov 2026</text></g>
@@ -124,23 +134,25 @@
 <g class="pop" style="animation-delay:1.19s"><g filter="url(#pencil)"><circle cx="391.0" cy="460.0" r="9" fill="#0f766e" stroke="#0b3b3a" stroke-width="1.8"/><circle cx="396.0" cy="464.0" r="9" fill="#0f766e" stroke="#0b3b3a" stroke-width="1.8"/></g>
   <text x="408" y="436.0" text-anchor="start" class="hand ink" font-size="16" style="">Liverpool and</text>
 <text x="408" y="452.0" text-anchor="start" class="hand ink" font-size="16" style="">Swansea</text></g>
+<g class="pop" style="animation-delay:0.89s"><g filter="url(#pencil)"><circle cx="312.0" cy="534.0" r="9" fill="#0f766e" stroke="#0b3b3a" stroke-width="1.8"/></g>
+  <text x="324" y="506.0" text-anchor="start" class="hand ink" font-size="16" style="">PhD starts,</text>
+<text x="324" y="522.0" text-anchor="start" class="hand ink" font-size="16" style="">Bangor</text></g>
 <g filter="url(#pencil)">
   <path d="M 707 166.66 C 729 164.45, 733 195.9, 713 201 C 692 202.7, 688 177.2, 705 167.85 L 715 165.3" fill="none" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" pathLength="1" class="draw" style="animation-delay:3.20s"/>
   <path d="M 707 166.66 C 729 164.45, 733 195.9, 713 201 C 692 202.7, 688 177.2, 705 167.85 L 715 165.3" fill="none" stroke="#c0392b" stroke-opacity="0.35" stroke-width="1.32" stroke-linecap="round" transform="translate(0.9 0.7)" pathLength="1" class="draw" style="animation-delay:3.20s"/>
 </g>
-<line x1="711.0" y1="120" x2="711.0" y2="496" stroke="#c0392b" stroke-width="1.6" stroke-dasharray="5 4" class="fade" style="animation-delay:3.00s"/>
-<text x="711.0" y="518" text-anchor="middle" class="hand red fade" font-size="19" style="animation-delay:3.40s">you are here</text>
+<line x1="711.0" y1="120" x2="711.0" y2="566" stroke="#c0392b" stroke-width="1.6" stroke-dasharray="5 4" class="fade" style="animation-delay:3.00s"/>
+<text x="711.0" y="588" text-anchor="middle" class="hand red fade" font-size="19" style="animation-delay:3.40s">you are here</text>
 <g class="pop" style="animation-delay:3.60s">
-  <g filter="url(#pencil)"><circle cx="816.0" cy="254" r="9" fill="#fffdf8" stroke="#a39b8b" stroke-width="1.8" stroke-dasharray="3 3"/><circle cx="811.0" cy="250" r="9" fill="#fffdf8" stroke="#a39b8b" stroke-width="1.8" stroke-dasharray="3 3"/></g>
-  <text x="816" y="224.0" text-anchor="middle" class="hand faint" font-size="16" style="">2 papers</text>
-<text x="816" y="240.0" text-anchor="middle" class="hand faint" font-size="16" style="">under review</text>
+  <g filter="url(#pencil)"><circle cx="816.0" cy="184" r="9" fill="#fffdf8" stroke="#a39b8b" stroke-width="1.8" stroke-dasharray="3 3"/><circle cx="811.0" cy="180" r="9" fill="#fffdf8" stroke="#a39b8b" stroke-width="1.8" stroke-dasharray="3 3"/></g>
+  <text x="816" y="154.0" text-anchor="middle" class="hand faint" font-size="16" style="">2 journal papers</text>
+<text x="816" y="170.0" text-anchor="middle" class="hand faint" font-size="16" style="">under review</text>
 </g>
 <g class="pop" style="animation-delay:3.80s">
-  <g filter="url(#pencil)"><circle cx="816.0" cy="394" r="9" fill="#fffdf8" stroke="#a39b8b" stroke-width="1.8" stroke-dasharray="3 3"/></g>
-  <text x="816" y="420.0" text-anchor="middle" class="hand faint" font-size="16" style="">My thesis,</text>
-<text x="816" y="436.0" text-anchor="middle" class="hand faint" font-size="16" style="">2027</text>
+  <g filter="url(#pencil)"><circle cx="816.0" cy="534" r="9" fill="#fffdf8" stroke="#a39b8b" stroke-width="1.8" stroke-dasharray="3 3"/></g>
+  <text x="816" y="562.0" text-anchor="middle" class="hand faint" font-size="16" style="">My thesis, 2027</text>
 </g>
-<g class="bob" style="animation-delay:0.00s"><g transform="translate(816 380)">
+<g class="bob" style="animation-delay:0.00s"><g transform="translate(816 520)">
   <rect x="-4.5" y="-34" width="9" height="20" rx="2" fill="#f2c14e" stroke="#5c4310" stroke-width="1.2"/>
   <path d="M -13 -16 L 13 -16 L 0 0 Z" fill="#f2c14e" stroke="#5c4310" stroke-width="1.2" stroke-linejoin="round"/>
 </g></g>
