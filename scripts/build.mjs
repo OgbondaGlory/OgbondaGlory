@@ -158,13 +158,14 @@ function hero() {
 ${sheet(14, 18, 872, 282, { turn: -0.4 })}
 <text x="92" y="80" class="hand teal rise" font-size="31">Hi, I'm Glory</text>
 <text x="92" y="128" class="lex b ink rise" font-size="38" style="${delay(0.15)}">Ebube Glory Ogbonda</text>
-<text x="92" y="164" class="lex lead rise" font-size="16.5" style="${delay(0.3)}">PhD researcher in computer science, Bangor University.</text>
-<text x="92" y="189" class="lex lead rise" font-size="16.5" style="${delay(0.4)}">I draw legal processes as maps people can follow.</text>
-<text x="92" y="224" class="hand ink" font-size="21">Right now:</text>
-${now.map((line, at) => `<text x="186" y="224" class="hand teal now${at ? '' : ' first'}" font-size="21" style="${delay(at * 3.5)}">${esc(line)}</text>`).join('\n')}
-${stamp(92, 250, 'LEGAL VISUALIZATION', C.teal, { size: 10.5, turn: -2, cls: 'fade', style: delay(0.8) })}
-${stamp(296, 252, 'ACCESS TO JUSTICE', C.tealDark, { size: 10.5, turn: 1.5, cls: 'fade', style: delay(0.95) })}
-${stamp(480, 249, 'AIMLAC CDT', C.ink, { size: 10.5, turn: -1, cls: 'fade', style: delay(1.1) })}
+<text x="92" y="161" class="lex lead rise" font-size="16.5" style="${delay(0.3)}">PhD researcher in computer science, Bangor University.</text>
+<text x="92" y="186" class="lex lead rise" font-size="16.5" style="${delay(0.4)}">I build AI systems that draw legal processes</text>
+<text x="92" y="209" class="lex lead rise" font-size="16.5" style="${delay(0.45)}">people can follow.</text>
+<text x="92" y="241" class="hand ink" font-size="21">Right now:</text>
+${now.map((line, at) => `<text x="186" y="241" class="hand teal now${at ? '' : ' first'}" font-size="21" style="${delay(at * 3.5)}">${esc(line)}</text>`).join('\n')}
+${stamp(92, 258, 'LEGAL VISUALIZATION', C.teal, { size: 10.5, turn: -2, cls: 'fade', style: delay(0.8) })}
+${stamp(296, 260, 'ACCESS TO JUSTICE', C.tealDark, { size: 10.5, turn: 1.5, cls: 'fade', style: delay(0.95) })}
+${stamp(480, 257, 'AIMLAC CDT', C.ink, { size: 10.5, turn: -1, cls: 'fade', style: delay(1.1) })}
 ${pencil(route, C.teal, 2.6, { cls: 'draw', style: delay(0.3) })}
 ${nodes.map((one, at) => `<g class="pop" style="${delay(0.5 + at * 0.4)}">${one.hearing
     ? `<g filter="url(#pencil)"><path d="M ${one.x} ${one.y - 13} L ${one.x + 13} ${one.y} L ${one.x} ${one.y + 13} L ${one.x - 13} ${one.y} Z" fill="${C.paper}" stroke="${C.red}" stroke-width="2.2"/></g>`
@@ -173,7 +174,7 @@ ${nodes.map((one, at) => `<g class="pop" style="${delay(0.5 + at * 0.4)}">${one.
 ${penRing(742, 214, 24, 20, { style: delay(2.6) })}
 <text x="676" y="262" class="hand red fade" font-size="18" style="${delay(3)}">you are here</text>
 ${goldArrow(796, 112, { style: delay(0) })}`;
-  return svg({ w: W, h: H, title: 'Ebube Glory Ogbonda', desc: 'Hi, I am Glory: a PhD researcher in computer science at Bangor University. I draw legal processes as maps people can follow. A sketch of the route of a small claim: claim, defence, mediation, hearing, decision. A red ring marks mediation as you are here, and a gold arrow points at the hearing.', css: nowCss, body });
+  return svg({ w: W, h: H, title: 'Ebube Glory Ogbonda', desc: 'Hi, I am Glory: a PhD researcher in computer science at Bangor University. I build AI systems that draw legal processes people can follow. A sketch of the route of a small claim: claim, defence, mediation, hearing, decision. A red ring marks mediation as you are here, and a gold arrow points at the hearing.', css: nowCss, body });
 }
 
 function paper() {
@@ -246,13 +247,13 @@ function route() {
   const W = 900;
   const H = 392;
   const stops = [
-    { date: 'SEP 2023', lines: ['Started my PhD', 'AIMLAC CDT, Bangor'] },
+    { date: 'SEP 2023', lines: ['PhD at Bangor,', 'funded by AIMLAC'] },
     { date: 'OCT 2023', lines: ['A year at Bristol', 'School of Physics'] },
     { date: 'MAY 2024', lines: ['EmployODR for', 'the SRA'] },
     { date: 'MAY–JUN 2024', lines: ['First talks:', 'Liverpool, Swansea'] },
-    { date: 'JUN 2025', lines: ['ICAIL workshop,', 'Chicago'] },
-    { date: '2025', lines: ['Law Society', 'report; IEEE VIS'] },
+    { date: 'JUN 2025', lines: ['ICAIL, Chicago;', 'Law Society report'] },
     { date: 'AUG 2025', lines: ['First LexViz', 'prototypes'] },
+    { date: 'NOV 2025', lines: ['Poster at', 'IEEE VIS, Vienna'] },
     { date: 'NOV 2026', lines: ['Paper accepted', 'in IRLCT'], now: true },
     { date: '2027', lines: ['My thesis'], later: true },
   ];
@@ -283,7 +284,7 @@ ${points.map((one, at) => {
 ${penRing(points[7].x, points[7].y, 22, 19, { style: delay(3.4) })}
 <text x="${points[7].x + 6}" y="${points[7].y + 92}" text-anchor="middle" class="hand red fade" font-size="19" style="${delay(3.8)}">you are here</text>
 ${goldArrow(last.x, last.y - 16, { style: delay(0) })}`;
-  return svg({ w: W, h: H, title: 'My research so far', desc: 'A route from September 2023 to 2027: started my PhD in the AIMLAC CDT at Bangor; a year at the School of Physics in Bristol; EmployODR for the Solicitors Regulation Authority in May 2024; first talks in Liverpool and Swansea; the ICAIL workshop in Chicago in June 2025; the Law Society report and IEEE VIS in 2025; the first LexViz prototypes in August 2025; a paper accepted in IRLCT in November 2026, ringed as you are here; and the thesis in 2027, still dashed.', body });
+  return svg({ w: W, h: H, title: 'My research so far', desc: 'A route from September 2023 to 2027: started my PhD at Bangor, funded by the AIMLAC Centre for Doctoral Training; a year at the School of Physics in Bristol; EmployODR for the Solicitors Regulation Authority in May 2024; first talks in Liverpool and Swansea; the ICAIL workshop in Chicago and the Law Society report in June 2025; the first LexViz prototypes in August 2025; a poster at IEEE VIS in Vienna in November 2025; a paper accepted in IRLCT in November 2026, ringed as you are here; and the thesis in 2027, still dashed.', body });
 }
 
 // What LexViz Explorer is made of, measured from the private repository on 26 November 2026: lines in the files git tracks, without
@@ -371,7 +372,7 @@ const TAGS = [
   ['paper', 'New paper: IRLCT 2026', C.red],
   ['orcid', 'ORCID', '#a6ce39'],
   ['linkedin', 'LinkedIn', '#0a66c2'],
-  ['credly', 'Certificates on Credly', C.gold],
+  ['website', 'ebubegloryogbonda.online', C.gold],
 ];
 
 // ---------- the activity calendar ----------

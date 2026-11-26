@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="392" viewBox="0 0 900 392" role="img" aria-labelledby="t d">
 <title id="t">My research so far</title>
-<desc id="d">A route from September 2023 to 2027: started my PhD in the AIMLAC CDT at Bangor; a year at the School of Physics in Bristol; EmployODR for the Solicitors Regulation Authority in May 2024; first talks in Liverpool and Swansea; the ICAIL workshop in Chicago in June 2025; the Law Society report and IEEE VIS in 2025; the first LexViz prototypes in August 2025; a paper accepted in IRLCT in November 2026, ringed as you are here; and the thesis in 2027, still dashed.</desc>
+<desc id="d">A route from September 2023 to 2027: started my PhD at Bangor, funded by the AIMLAC Centre for Doctoral Training; a year at the School of Physics in Bristol; EmployODR for the Solicitors Regulation Authority in May 2024; first talks in Liverpool and Swansea; the ICAIL workshop in Chicago and the Law Society report in June 2025; the first LexViz prototypes in August 2025; a poster at IEEE VIS in Vienna in November 2025; a paper accepted in IRLCT in November 2026, ringed as you are here; and the thesis in 2027, still dashed.</desc>
 <defs>
 <filter id="grain" x="0" y="0" width="100%" height="100%">
   <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" seed="4" result="n"/>
@@ -54,8 +54,8 @@
 <g class="pop" style="animation-delay:0.50s">
   <g filter="url(#pencil)"><circle cx="98" cy="168" r="10" fill="#0f766e" stroke="#0b3b3a" stroke-width="1.8"/></g>
   <text x="98" y="110" text-anchor="middle" class="lex b" font-size="11.5" letter-spacing="1" fill="#0b3b3a">SEP 2023</text>
-  <text x="98" y="131.0" text-anchor="middle" class="hand ink" font-size="18" style="">Started my PhD</text>
-<text x="98" y="149.0" text-anchor="middle" class="hand ink" font-size="18" style="">AIMLAC CDT, Bangor</text>
+  <text x="98" y="131.0" text-anchor="middle" class="hand ink" font-size="18" style="">PhD at Bangor,</text>
+<text x="98" y="149.0" text-anchor="middle" class="hand ink" font-size="18" style="">funded by AIMLAC</text>
 </g>
 <g class="pop" style="animation-delay:0.78s">
   <g filter="url(#pencil)"><circle cx="189" cy="236" r="10" fill="#0f766e" stroke="#0b3b3a" stroke-width="1.8"/></g>
@@ -78,20 +78,20 @@
 <g class="pop" style="animation-delay:1.62s">
   <g filter="url(#pencil)"><circle cx="462" cy="168" r="10" fill="#0f766e" stroke="#0b3b3a" stroke-width="1.8"/></g>
   <text x="462" y="110" text-anchor="middle" class="lex b" font-size="11.5" letter-spacing="1" fill="#0b3b3a">JUN 2025</text>
-  <text x="462" y="131.0" text-anchor="middle" class="hand ink" font-size="18" style="">ICAIL workshop,</text>
-<text x="462" y="149.0" text-anchor="middle" class="hand ink" font-size="18" style="">Chicago</text>
+  <text x="462" y="131.0" text-anchor="middle" class="hand ink" font-size="18" style="">ICAIL, Chicago;</text>
+<text x="462" y="149.0" text-anchor="middle" class="hand ink" font-size="18" style="">Law Society report</text>
 </g>
 <g class="pop" style="animation-delay:1.90s">
   <g filter="url(#pencil)"><circle cx="553" cy="236" r="10" fill="#0f766e" stroke="#0b3b3a" stroke-width="1.8"/></g>
-  <text x="553" y="272" text-anchor="middle" class="lex b" font-size="11.5" letter-spacing="1" fill="#0b3b3a">2025</text>
-  <text x="553" y="293.0" text-anchor="middle" class="hand ink" font-size="18" style="">Law Society</text>
-<text x="553" y="311.0" text-anchor="middle" class="hand ink" font-size="18" style="">report; IEEE VIS</text>
+  <text x="553" y="272" text-anchor="middle" class="lex b" font-size="11.5" letter-spacing="1" fill="#0b3b3a">AUG 2025</text>
+  <text x="553" y="293.0" text-anchor="middle" class="hand ink" font-size="18" style="">First LexViz</text>
+<text x="553" y="311.0" text-anchor="middle" class="hand ink" font-size="18" style="">prototypes</text>
 </g>
 <g class="pop" style="animation-delay:2.18s">
   <g filter="url(#pencil)"><circle cx="644" cy="168" r="10" fill="#0f766e" stroke="#0b3b3a" stroke-width="1.8"/></g>
-  <text x="644" y="110" text-anchor="middle" class="lex b" font-size="11.5" letter-spacing="1" fill="#0b3b3a">AUG 2025</text>
-  <text x="644" y="131.0" text-anchor="middle" class="hand ink" font-size="18" style="">First LexViz</text>
-<text x="644" y="149.0" text-anchor="middle" class="hand ink" font-size="18" style="">prototypes</text>
+  <text x="644" y="110" text-anchor="middle" class="lex b" font-size="11.5" letter-spacing="1" fill="#0b3b3a">NOV 2025</text>
+  <text x="644" y="131.0" text-anchor="middle" class="hand ink" font-size="18" style="">Poster at</text>
+<text x="644" y="149.0" text-anchor="middle" class="hand ink" font-size="18" style="">IEEE VIS, Vienna</text>
 </g>
 <g class="pop" style="animation-delay:2.46s">
   <g filter="url(#pencil)"><circle cx="735" cy="236" r="10" fill="#c0392b" stroke="#7e2318" stroke-width="1.8"/></g>
