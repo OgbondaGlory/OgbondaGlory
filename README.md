@@ -1,236 +1,104 @@
-<!-- GitHub Profile README Draft for Ebube Glory Ogbonda -->
-<div align="center">
+<a href="https://lexvizexplorer.com"><img src="assets/hero.svg" width="100%" alt="Hi, I'm Glory. Ebube Glory Ogbonda, PhD researcher in computer science at Bangor University. I draw legal processes as maps people can follow."></a>
 
-<h1>Ebube Glory Ogbonda</h1>
-<p><strong>PhD Researcher &nbsp;·&nbsp; Full-Stack Engineer &nbsp;·&nbsp; Legal AI</strong><br/>
-Bangor University AIMLAC CDT &nbsp;|&nbsp; ML &amp; Data Visualization &nbsp;|&nbsp; Knowledge Graphs &amp; RAG</p>
+<p align="center">
+  <a href="https://lexvizexplorer.com"><img src="https://img.shields.io/badge/LexViz_Explorer-lexvizexplorer.com-0F766E?style=flat-square" alt="LexViz Explorer"></a>
+  <a href="https://doi.org/10.1080/13600869.2026.2771561"><img src="https://img.shields.io/badge/New_paper-IRLCT_2026-C0392B?style=flat-square" alt="New paper in IRLCT, 2026"></a>
+  <a href="https://orcid.org/0009-0002-9781-7537"><img src="https://img.shields.io/badge/ORCID-0009--0002--9781--7537-0B3B3A?style=flat-square&logo=orcid&logoColor=white" alt="ORCID"></a>
+  <a href="https://www.linkedin.com/in/ebube-glory-ogbonda-05bb2014b/"><img src="https://img.shields.io/badge/LinkedIn-Ebube_Glory_Ogbonda-0B3B3A?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="https://www.credly.com/users/ebube_glory_ogbonda/badges"><img src="https://img.shields.io/badge/Certificates-Credly-F2C14E?style=flat-square&logo=credly&logoColor=black" alt="Certificates on Credly"></a>
+</p>
 
-<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=18&pause=1400&color=58a6ff&center=true&vCenter=true&width=780&lines=Building+LexVizExplorer+%7C+PoliViz+%7C+EmployODR;Human-centred+AI+%2B+Knowledge+Graphs+%2B+RAG+Pipelines;PhD+Researcher+%40+Bangor+University+AIMLAC+CDT;9+Years+Full-Stack+%7C+Legal+Tech+%7C+Data+Visualization" alt="typing animation" />
+Hi, I'm Glory. I'm a PhD researcher in computer science at Bangor University, in the AIMLAC Centre for Doctoral Training.
 
-<br/>
+Many people in England and Wales face a legal problem with no lawyer beside them. They get a letter, a form or a deadline, and no picture of what happens next. My research is about that picture. I draw legal processes as maps: each legal step, who takes the step, what the step needs, how long the step lasts, and the law behind each rule. Then I test the maps with the people they are for.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ebube-glory-ogbonda-05bb2014b/)
-[![ORCID](https://img.shields.io/badge/ORCID-A6CE39?style=for-the-badge&logo=orcid&logoColor=white)](https://orcid.org/0009-0002-9781-7537)
-[![Portfolio](https://img.shields.io/badge/Portfolio-111827?style=for-the-badge&logo=firefox&logoColor=white)](https://ebubegloryogbonda.dev/)
-[![Credly](https://img.shields.io/badge/Certifications-f59e0b?style=for-the-badge&logo=acclaim&logoColor=white)](https://www.credly.com/users/ebube_glory_ogbonda/badges)
-![Profile Views](https://komarev.com/ghpvc/?username=OgbondaGlory&style=for-the-badge&color=58a6ff)
+I also build what I study, from the database to the last button. I have written software since 2015, when I co-founded Qrapp Technology.
 
-</div>
+## A new paper
 
----
+<a href="https://doi.org/10.1080/13600869.2026.2771561"><img src="assets/paper.svg" width="100%" alt="New paper, accepted on 25 November 2026: Legal Visualisation in Practice: What LegalVis Reveals About Law, with Sarah Nason, in the International Review of Law, Computers and Technology."></a>
 
-## About
+**Legal Visualisation in Practice: What LegalVis Reveals About Law**, written with Sarah Nason, was accepted on 25 November 2026 by the *International Review of Law, Computers & Technology* (Taylor & Francis). LegalVis is a published visual analytics tool for exploring how court decisions cite earlier ones (Resck et al., 2023).
 
-Full-stack developer and AI researcher with 9 years of experience building applied systems at the intersection of legal technology, machine learning, and data visualization. Currently a PhD researcher at Bangor University (AIMLAC CDT) focused on AI-assisted legal guidance and process visualization.
+DOI: [10.1080/13600869.2026.2771561](https://doi.org/10.1080/13600869.2026.2771561). The link will work once Taylor & Francis publishes the article online.
 
-**Based in:** United Kingdom &nbsp;·&nbsp; **Collaborating with:** universities and research labs  
-**Interests:** knowledge graphs · retrieval-augmented generation (RAG) · visual analytics · explainable AI  
-**Currently shipping:** LexVizExplorer · PoliViz · EmployODR
+## What I'm building: LexViz Explorer
 
----
+<a href="https://lexvizexplorer.com"><img src="assets/board.svg" width="100%" alt="Three photos pinned to a cork board: the legal steps of a PIP appeal on the LexViz map, Court 1 in the LexViz town, and chapter 8 of the story at the court door."></a>
 
-## Languages — Most Used on GitHub
+[LexViz Explorer](https://lexvizexplorer.com) is the web application at the centre of my PhD. You describe a legal problem in plain words, and LexViz Explorer shows the legal steps as a map: who does what, in what order, and by which date.
 
-<div align="center">
+- **One legal step at a time.** To see the whole process, you click Full journey. Diamonds mark choices. Deadlines are red and carry the word Deadline, so nobody has to rely on colour alone.
+- **The law behind every step.** Each statement of law links to the official page the statement is based on. Every 24 hours the system compares each quoted provision with the official text, letter for letter, and keeps every version when the law changes.
+- **A person approves each statement of law.** The AI cannot approve one, and an approval counts as independent only when two different people approved the same version.
+- **Read aloud.** Every step can be read aloud, and the application works in four languages.
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=OgbondaGlory&theme=github_dark" alt="Repos per Language" />
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=OgbondaGlory&theme=github_dark" alt="Most Commit Language" />
+Since autumn 2026 there is a second way in: **a small 3D town in the browser**. You walk or drive to the places where legal problems get sorted out. There is a Housing Centre, a Rights Library, a post office, and a court building with nine courtrooms. Nine story chapters follow real kinds of legal problem: a parking ticket, a damp flat, missing pay, a small claim that ends at a county court hearing, and more. You read the papers, choose what a person does next, and see why each choice is right or wrong under the law. Friends can play a chapter together.
 
-</div>
+I build LexViz Explorer with React and TypeScript, three.js for the town, Node.js and Express, PostgreSQL and OpenAI models. The code is in a private repository while the research runs, so here is what the code looks like from the outside:
 
-> Language breakdown by repository count (left) and commit frequency (right). Private project work adds TypeScript and Python/FastAPI on top.
+<img src="assets/code.svg" width="100%" alt="What LexViz Explorer is made of, measured on 26 November 2026: 384,043 lines of TypeScript, 146,547 of JavaScript, 2,398 of Python and 989 of HTML and CSS; 1,371 commits since August 2025, 395 test files and 207 design notes.">
 
----
+## Other projects
 
-## Tech Stack
+**[EmployODR](https://ogbondaglory.github.io/employodr/)** ([code](https://github.com/OgbondaGlory/employodr)), 2024 to 2025. I built EmployODR for the Solicitors Regulation Authority, with funding from the Regulators' Pioneer Fund. You describe a problem at work, and EmployODR explains the employment law of England and Wales that applies, then suggests online dispute resolution services, scored for relevance, cost and accessibility. EmployODR uses GPT-3.5 Turbo with retrieval from employment law sources. The Law Society of England and Wales featured EmployODR in a 2025 report on access to justice.
 
-**Languages**
+**[PoliViz](https://ogbondaglory.github.io/POLIVIZ/)**. A browser extension and a desktop app for reading privacy policies. PoliViz finds the privacy policy of the website you're on and scores the risks. You see the clauses that matter under the GDPR, and you can ask questions in plain English. Each answer links to the passage of the policy behind the answer. I built PoliViz with GPT-4, a FastAPI backend, sentence-transformer embeddings and FAISS search.
 
-<div>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="36" alt="Python" title="Python"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="36" alt="JavaScript" title="JavaScript"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="36" alt="TypeScript" title="TypeScript"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="36" alt="Java" title="Java"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" height="36" alt="Jupyter / Python ML" title="Jupyter Notebook"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="36" alt="HTML5" title="HTML5"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="36" alt="CSS3" title="CSS3"/>
-</div>
+**Earlier visualization work (2023).** [Refugee movements to the US from 1975](https://github.com/OgbondaGlory/Visualising_USA_Refugee_Regions_Influx_data) as a narrative visualization, and [immersive data visualization in the browser](https://github.com/OgbondaGlory/Immersive-Data-Vis-VR) with [A-Frame and WebXR](https://github.com/OgbondaGlory/WebXR-and-A-Frame). Both became posters in the Eurographics Digital Library.
 
-**Frontend & Visualization**
+## My research
 
-<div>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="36" alt="React" title="React"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" height="36" alt="Next.js" title="Next.js"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/d3js/d3js-original.svg" height="36" alt="D3.js" title="D3.js"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/electron/electron-original.svg" height="36" alt="Electron" title="Electron"/>
-<img src="https://img.shields.io/badge/React_Flow-ff0072?style=flat-square&logo=react&logoColor=white" height="28" alt="React Flow / XFlow" title="React Flow"/>
-<img src="https://img.shields.io/badge/Cytoscape.js-e8c12a?style=flat-square" height="28" alt="Cytoscape.js" title="Cytoscape.js"/>
-</div>
+<img src="assets/route.svg" width="100%" alt="My research so far, as a route: started my PhD in September 2023; a year at Bristol; EmployODR for the SRA in May 2024; first talks in Liverpool and Swansea; the ICAIL workshop in Chicago in June 2025; the Law Society report and IEEE VIS in 2025; the first LexViz prototypes in August 2025; a paper accepted in November 2026, marked you are here; my thesis in 2027.">
 
-**Backend & APIs**
+My thesis has the working title *Drawing the Law as a Process: An Iterative Design Study of AI-Assisted Legal Process Visualization for Access to Justice in England and Wales*. I'm working on four questions:
 
-<div>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="36" alt="Node.js" title="Node.js"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" height="36" alt="Express" title="Express"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" height="36" alt="FastAPI" title="FastAPI"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="36" alt="PostgreSQL" title="PostgreSQL"/>
-</div>
+1. **Evidence.** What does research already show about visualizing legal information for people without legal training, and what is missing?
+2. **Design.** What do people with a legal problem, and the advisers who help them, need from a picture of a legal process?
+3. **Matching the law.** How can a system that uses large language models show steps that comply with the law of England and Wales, and stay correct when the law changes?
+4. **Evaluation.** How should such a system be tested with lay people, advisers and legal experts?
 
-**AI / ML**
+So far I have set out sixteen design requirements, each linked to evidence. I also traced how the design changed over fifteen months of prototypes. I grouped 1,539 screenshots into thirteen versions, and followed 28 ideas from the first sketch to the version that kept or dropped each idea. Next come two studies. In a co-design study, people draw their own explanation of a legal process before they see mine. In the evaluation, I measure the quality of people's decisions, how well people understand conditions and exceptions, and how closely people's trust in the tool matches the accuracy of the tool. Both studies are waiting for ethics approval.
 
-<div>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" height="36" alt="TensorFlow" title="TensorFlow"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" height="36" alt="PyTorch" title="PyTorch"/>
-<img src="https://img.shields.io/badge/OpenAI_GPT--4o-412991?style=flat-square&logo=openai&logoColor=white" height="28" alt="OpenAI" title="OpenAI APIs"/>
-<img src="https://img.shields.io/badge/RAG_Pipelines-6f42c1?style=flat-square" height="28" alt="RAG" title="RAG Pipelines"/>
-<img src="https://img.shields.io/badge/FAISS_Vector_Search-ff4785?style=flat-square" height="28" alt="FAISS" title="FAISS / Embeddings"/>
-</div>
+## Papers and talks
 
-**DevOps & Tooling**
+| Year | Where | What |
+|---|---|---|
+| 2026 | *International Review of Law, Computers & Technology* | **Legal Visualisation in Practice: What LegalVis Reveals About Law**, with S. Nason. Accepted 25 November 2026. [doi:10.1080/13600869.2026.2771561](https://doi.org/10.1080/13600869.2026.2771561) |
+| 2025 | IEEE VIS | **Explanatory Visualization with LLMs for Employment Law** |
+| 2025 | ICAIL 2025, Workshop on AI for Access to Justice, Chicago | **Harnessing Generative AI to Enhance Access to Online Dispute Resolution in Employment Law**, E. G. Ogbonda and S. Nason. [Workshop write-up by the Stanford Legal Design Lab](https://justiceinnovation.law.stanford.edu/human-centered-ai-at-icails-access-to-justice-workshop) |
+| 2025 | The Law Society of England and Wales | The *21st Century Justice* report features EmployODR |
+| 2024 | Turing Connections, University of Liverpool (May); AI Conference, Swansea University (June) | Talk: **Opportunities and Impact for Visualization across Law and Judicial Processes**, with J. C. Roberts, S. Nason and P. W. S. Butcher |
+| 2023 | Eurographics Digital Library | Three posters: US immigration data; US refugee movements as a narrative visualization; an immersive WebXR data visualization tool (A-Frame and D3.js) |
 
-<div>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="36" alt="Docker" title="Docker"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/githubactions/githubactions-original.svg" height="36" alt="GitHub Actions" title="GitHub Actions"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" height="36" alt="Azure" title="Azure"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg" height="36" alt="AWS" title="AWS"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg" height="36" alt="Jest" title="Jest"/>
-<img src="https://img.shields.io/badge/Playwright-45ba4b?style=flat-square&logo=playwright&logoColor=white" height="28" alt="Playwright" title="Playwright"/>
-</div>
+Two more papers are under review.
 
----
+## My last 12 months on GitHub
 
-## Projects
+<img src="assets/activity.svg" width="100%" alt="A calendar of my contributions on GitHub over the last 12 months, with the total, the busiest day and the longest run of days in a row. A GitHub Action draws the calendar again every day.">
 
-### LexVizExplorer — Visual Legal Guidance Platform
+## What I build with
 
-[![Repo](https://img.shields.io/badge/GitHub-LexVizExplorer-24292f?style=flat-square&logo=github)](https://github.com/OgbondaGlory/LexVizExplorer)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=061c23)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![OpenAI](https://img.shields.io/badge/GPT--4o-412991?style=flat-square&logo=openai&logoColor=white)
+<img src="assets/stack.svg" width="100%" alt="What I build with. Build: TypeScript and React, Node.js and Express, Python and FastAPI, PostgreSQL, three.js. AI: OpenAI models, retrieval (RAG), embeddings and FAISS, PyTorch, TensorFlow. Visualize: D3.js, React Flow, Cytoscape.js, A-Frame (WebXR), pencil and paper. Test and ship: Jest, Playwright, GitHub Actions, Docker and Heroku, Azure and AWS.">
 
-AI-powered legal-process explorer blending semantic flow selection, graph validation, and embeddings-backed retrieval to guide users through complex administrative justice pathways. React + TypeScript frontend with an Express/Node.js backend, deployed on Heroku.
+## Teaching and work
 
-- aj_* ID standardization across 50+ Administrative Justice templates
-- Hybrid semantic + keyword flow selection with embedding-cache fallback
-- Flow integrity validator and Jest/Playwright regression suites
-- RAG pipeline with non-destructive embedding updates
-
----
-
-### PoliViz — AI-Powered Privacy Policy Assistant
-
-[![Live](https://img.shields.io/badge/Live-ogbondaglory.github.io/POLIVIZ-00c853?style=flat-square&logo=vercel&logoColor=white)](https://ogbondaglory.github.io/POLIVIZ/)
-[![Repo](https://img.shields.io/badge/GitHub-PoliViz-24292f?style=flat-square&logo=github)](https://github.com/OgbondaGlory/PoliViz)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![FAISS](https://img.shields.io/badge/FAISS_Embeddings-6f42c1?style=flat-square)
-
-Detects privacy policies on any site and runs GPT-4 analysis with confidence and risk scoring. Answers questions in real time, extracts GDPR-relevant clauses, and provides actionable plain-language summaries. Available as a browser extension and Electron desktop app.
-
-- Visual argument mapping with provenance-aware source snippets
-- Literature-aware Q&A using sentence-transformer embeddings + FAISS
-- Designed for research labs and public policy teams
-
----
-
-### EmployODR — AI-Enhanced Access to Justice
-
-[![Live](https://img.shields.io/badge/Live-ogbondaglory.github.io/employodr-00c853?style=flat-square&logo=vercel&logoColor=white)](https://ogbondaglory.github.io/employodr/)
-[![Repo](https://img.shields.io/badge/GitHub-employodr-24292f?style=flat-square&logo=github)](https://github.com/OgbondaGlory/employodr)
-![OpenAI](https://img.shields.io/badge/GPT--3.5--Turbo-412991?style=flat-square&logo=openai&logoColor=white)
-![RAG](https://img.shields.io/badge/RAG_Pipeline-6f42c1?style=flat-square)
-
-AI tool guiding people through employment law (England & Wales) using GPT-3.5-Turbo with RAG. Provides personalised ODR tool recommendations with relevance, cost, and accessibility scoring. Built under the UK Regulators Pioneer Fund 3 and featured in the 2025 Law Society Access to Justice report.
-
----
-
-## Publications
-
-| Year | Venue | Title |
-|------|-------|-------|
-| 2025 | IEEE VIS | Explanatory Visualization with LLMs for Employment Law |
-| 2025 | Law Society of England & Wales | 21st Century Justice Report: Modernizing Access to Justice *(EmployODR featured)* |
-| 2025 | ICAIL — AI for Access to Justice Workshop | Harnessing Generative AI to Enhance Access to ODR in Employment Law |
-| 2023 | Eurographics Digital Library | Crafting Visual Narratives: U.S. Immigration Data Poster |
-| 2023 | Eurographics Digital Library | Interweaving Data and Stories: U.S. Refugee Movements — Narrative Visualisation |
-| 2023 | Eurographics Digital Library | Immersive WebXR Data Visualisation Tool (A-Frame + D3.js) |
-
----
-
-## Experience
-
-**International Recruitment Officer** — Bangor University *(Apr 2025 – Present)*  
-Admissions guidance, CAS and visa support for international applicants; cross-team collaboration.
-
-**AI Researcher** — Solicitors Regulation Authority *(May 2024 – Feb 2025, Contract)*  
-Built the AI-assisted legal visualization tool (EmployODR) for employment-law needs assessment and ODR recommendations.
-
-**Teaching Assistant** — Bangor University, School of CS & Engineering *(Jan 2024 – Present)*  
-Demonstrator for ICE-3703 / ICE-4702 — Machine Learning and Advanced Machine Learning.
-
-**Lead Software Developer** — Tawa Online *(Nov 2023 – Present, Part-time)*  
-End-to-end product engineering, feature delivery, and QA leadership.
-
-**Student Ambassador** — Bangor University *(Feb 2024 – Present)*  
-Campus tours, open days, and prospective-student advising.
-
-**Co-Founder / Data Scientist** — Qrapp Technology Ltd *(Jan 2015 – Present)*  
-Co-founded and shipped data-driven SaaS products for SMEs; full SDLC ownership.
-
-[![Full CV on LinkedIn](https://img.shields.io/badge/Full%20CV-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ebube-glory-ogbonda-05bb2014b/)
-
----
+- **Teaching assistant**, School of Computer Science and Engineering, Bangor University (since January 2024). I demonstrate in the Machine Learning and Advanced Machine Learning modules (ICE-3703 and ICE-4702).
+- **AI researcher**, Solicitors Regulation Authority (May 2024 to February 2025, contract). I built EmployODR.
+- **International Recruitment Officer**, Bangor University (since April 2025). I help international applicants with admissions, CAS letters and visas.
+- **Lead software developer**, Tawa Online (part-time, since November 2023).
+- **Student Ambassador**, Bangor University (since February 2024). Campus tours and open days.
+- **Co-founder and data scientist**, Qrapp Technology Ltd (since 2015). Data tools for small businesses.
 
 ## Education
 
-**PhD, Computer Science (AIMLAC CDT)** — Bangor University *(Sep 2023 – Sep 2027)*  
-Focus: AI/ML, visualization for legal advice systems. Course Rep Trainer · Peer Guide · International Student Mentor.
+- **PhD in Computer Science**, Bangor University, AIMLAC CDT (2023 to 2027).
+- **Visiting postgraduate researcher**, School of Physics, University of Bristol, as part of AIMLAC (October 2023 to September 2024). Distinction.
+- **Certificates**: NITDA Machine Learning Professional; IBM Data Science Professional Certificate; IBM Data Analyst Professional Certificate; Applied Data Science Specialization; Data Visualization and Dashboard Essentials (all 2023, [on Credly](https://www.credly.com/users/ebube_glory_ogbonda/badges)).
 
-**Visiting PGR, School of Physics (AIMLAC)** — University of Bristol *(Oct 2023 – Sep 2024)*  
-Grade: Distinction · Supervisor: Henning Flaecher · Programme: 2PHYS028R.
+<p align="center">
+  <sub>Away from the keyboard: powerlifting and judo.</sub><br>
+  <img src="https://komarev.com/ghpvc/?username=OgbondaGlory&style=flat-square&color=0F766E&label=profile+views" alt="Profile views">
+</p>
 
----
-
-## Certifications
-
-[![View all on Credly](https://img.shields.io/badge/View%20All%20Badges-Credly-f59e0b?style=for-the-badge&logo=acclaim&logoColor=white)](https://www.credly.com/users/ebube_glory_ogbonda/badges)
-
-| Certification | Issued |
-|---------------|--------|
-| NITDA Machine Learning Professional | Dec 2023 |
-| IBM Data Science Professional Certificate | Apr 2023 |
-| IBM Data Analyst Professional Certificate | Apr 2023 |
-| Applied Data Science Specialization | Apr 2023 |
-| Data Visualization & Dashboard Essentials | Apr 2023 |
-
----
-
-## Research Interests
-
-- Human-centred information retrieval and evaluation for RAG systems
-- Knowledge graphs and legal / policy process modelling
-- Visual analytics for explainable AI and decision support
-- Responsible AI: transparency, provenance, and bias mitigation
-
----
-
-## GitHub Stats
-
-<div align="center">
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=OgbondaGlory&theme=github_dark" alt="Profile Summary" />
-
-<img src="https://streak-stats.demolab.com?user=OgbondaGlory&theme=github-dark-blue&hide_border=true&background=0d1117&ring=58a6ff&fire=ff7b54&currStreakLabel=c9d1d9" alt="GitHub Streak" />
-
-<img src="https://github-profile-trophy.vercel.app/?username=OgbondaGlory&theme=github_dark&no-frame=true&row=1&column=6&margin-w=8" alt="Trophies" />
-
-</div>
-
----
-
-<div align="center">
-
-Powerlifting &nbsp;·&nbsp; Judo &nbsp;·&nbsp; Always iterating
-
-</div>
+<sub>The pictures on this page are drawn by <a href="scripts/build.mjs">scripts/build.mjs</a> in the LexViz paper style, with Lexend and Caveat (SIL Open Font License). The activity calendar is drawn again every day by a GitHub Action.</sub>

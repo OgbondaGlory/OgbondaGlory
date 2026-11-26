@@ -1,0 +1,33 @@
+name: Draw the activity calendar
+
+# Every day, the calendar of contributions on the profile is drawn again from the public contribution calendar of the account
+# (scripts/build.mjs --activity). The other pictures change only when the script changes.
+on:
+  schedule:
+    - cron: '23 5 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  draw:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Draw the calendar
+        run: node scripts/build.mjs --activity
+      - name: Save the calendar if it changed
+        run: |
+          if git diff --quiet -- assets/activity.svg; then
+            echo "The calendar is the same as yesterday."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/activity.svg
+          git commit -m "Activity calendar for $(date -u +%F)"
+          git push
