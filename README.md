@@ -12,7 +12,7 @@ Hi, I'm Glory. I'm a PhD researcher in computer science at Bangor University, fu
 
 Many people in England and Wales encounter legal problems without legal representation. They may receive correspondence, be asked to complete a form, or need to meet a deadline without knowing how the legal process proceeds. I develop artificial intelligence systems that generate procedural maps to help people navigate these processes. For each step, the maps identify the responsible actor, specify the requirements and expected duration, and cite the legal basis for the applicable rules. I then evaluate the maps with their intended users.
 
-In 2015 I co-founded Qrapp Technology Ltd, where I continue to develop data-driven software products for small and medium-sized enterprises, from requirements to deployment.
+In January 2018 I founded Qrapp Technology, which I continue to lead as technical lead, translating user and commercial requirements into digital products, technical roadmaps and iterative releases.
 
 ## New publication
 
@@ -102,12 +102,12 @@ Two further journal papers are under review. The complete list is on [my website
 
 ## Teaching and work
 
-- **Teaching assistant**, School of Computer Science and Engineering, Bangor University (since January 2024). I support laboratory sessions for the Machine Learning and Advanced Machine Learning modules (ICE-3703 and ICE-4702).
-- **AI researcher**, Solicitors Regulation Authority (May 2024 to February 2025, contract). I developed EmployODR.
+- **Teaching assistant and demonstrator**, School of Computer Science and Engineering, Bangor University (since November 2023). I teach practical sessions in Machine Learning, Advanced Machine Learning, Information Visualisation and Creative Visualisation.
+- **AI researcher, legal technology**, Bangor University, Regulators' Pioneer Fund 3 (June 2024 to February 2025). I led the development of EmployODR.
 - **International Recruitment Officer**, Bangor University (since April 2025). I advise international applicants on admissions, CAS letters and visas.
 - **Lead software developer**, Tawa Online (part-time, since November 2023).
 - **Student Ambassador**, Bangor University (since February 2024). I lead campus tours and support open days.
-- **Co-founder and data scientist**, Qrapp Technology Ltd (since 2015). Data-driven software products for small and medium-sized enterprises.
+- **Founder and technical lead**, Qrapp Technology (since January 2018). Product strategy, software delivery and partnerships.
 
 ## Education
 
