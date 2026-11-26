@@ -49,7 +49,7 @@ I build LexViz Explorer with React and TypeScript, three.js for the town, Node.j
 
 **[PoliViz](https://ogbondaglory.github.io/POLIVIZ/)**. A browser extension and a desktop app for reading privacy policies. PoliViz finds the privacy policy of the website you're on and scores the risks. You see the clauses that matter under the GDPR, and you can ask questions in plain English. Each answer links to the passage of the policy behind the answer. I built PoliViz with GPT-4, a FastAPI backend, sentence-transformer embeddings and FAISS search.
 
-**Earlier visualization work (2023).** I told the story of [refugees resettled in the US from 1975 to 2018](https://github.com/OgbondaGlory/Visualising_USA_Refugee_Regions_Influx_data) as a narrative visualization. I also built [immersive data visualizations that run in the browser](https://github.com/OgbondaGlory/Immersive-Data-Vis-VR), with [A-Frame and WebXR](https://github.com/OgbondaGlory/WebXR-and-A-Frame). The refugee story became a poster at CGVC 2023, and the WebXR tool a CGVC 2023 paper. Both have DOIs, in the list below.
+**Earlier visualization work (2023).** I told the story of [refugees resettled in the US from 1975 to 2018](https://github.com/OgbondaGlory/Visualising_USA_Refugee_Regions_Influx_data) as a narrative visualization. I also built [immersive data visualizations that run in the browser](https://github.com/OgbondaGlory/Immersive-Data-Vis-VR), with [A-Frame and WebXR](https://github.com/OgbondaGlory/WebXR-and-A-Frame). At CGVC 2023 the refugee story became a poster, and the WebXR tool a short paper. Both have DOIs, in the list below.
 
 ## My research
 
@@ -74,9 +74,9 @@ So far I have set out sixteen design requirements, each linked to evidence. I al
 
 - **Explanatory Visualization with LLMs for Employment Law.** E. G. Ogbonda, S. Nason, J. C. Roberts and P. W. S. Butcher. Poster, IEEE VIS 2025, Vienna. [Paper on Bangor's research portal](https://pure.bangor.ac.uk/ws/portalfiles/portal/83308386/IEEE_VIS_2025_Poster_Paper_Explainable_Vis_for_Law_with_AI.pdf)
 - **Harnessing Generative AI to Enhance Access to Online Dispute Resolution in Employment Law.** S. Nason, E. G. Ogbonda, J. C. Roberts and P. W. S. Butcher. Workshop on AI for Access to Justice, ICAIL 2025, Chicago, 20 June 2025. [Paper](https://ebubegloryogbonda.online/assets/docs/Harnessing-Generative-AI-ODR.pdf), and the [workshop write-up by the Stanford Legal Design Lab](https://justiceinnovation.law.stanford.edu/human-centered-ai-at-icails-access-to-justice-workshop)
-- **Crafting Visual Narratives: A Case Study on Developing an Engaging Visualisation Poster Using U.S. Immigration Data.** E. G. Ogbonda, P. W. S. Butcher and J. C. Roberts. Computer Graphics and Visual Computing (CGVC) 2023. [doi:10.2312/CGVC.20231203](https://doi.org/10.2312/CGVC.20231203)
+- **Crafting Visual Narratives: A Case Study on Developing an Engaging Visualisation Poster Using U.S. Immigration Data.** E. G. Ogbonda, P. W. S. Butcher and J. C. Roberts. Short paper, Computer Graphics and Visual Computing (CGVC) 2023. [doi:10.2312/CGVC.20231203](https://doi.org/10.2312/CGVC.20231203)
 - **Interweaving Data and Stories: A Case Study on Unveiling the Human Dimension of U.S. Refugee Movements through Narrative Visualisation.** E. G. Ogbonda, J. C. Roberts and P. W. S. Butcher. Poster, CGVC 2023. [doi:10.2312/CGVC.20231192](https://doi.org/10.2312/CGVC.20231192)
-- **Immersive WebXR Data Visualisation Tool.** E. G. Ogbonda. CGVC 2023. [doi:10.2312/CGVC.20231202](https://doi.org/10.2312/CGVC.20231202)
+- **Immersive WebXR Data Visualisation Tool.** E. G. Ogbonda. Short paper, CGVC 2023. [doi:10.2312/CGVC.20231202](https://doi.org/10.2312/CGVC.20231202)
 
 **Policy and reports**
 
