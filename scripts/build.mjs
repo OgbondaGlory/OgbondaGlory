@@ -281,7 +281,7 @@ function tracks() {
   const body = `
 ${sheet(14, 18, 872, 590, { turn: -0.25 })}
 <text x="74" y="70" class="hand ink rise" font-size="28">My publications so far</text>
-<text x="76" y="96" class="lex lead rise" font-size="14" style="${delay(0.15)}">Each row is one kind of output, as the lanes of a LexViz map. Time runs from left to right.</text>
+<text x="76" y="96" class="lex lead rise" font-size="14" style="${delay(0.15)}">Each row is one kind of output. Time runs from left to right.</text>
 <rect x="${now.toFixed(1)}" y="${top - 18}" width="${(x1 - now + 14).toFixed(1)}" height="${bottom - top + 18}" fill="${C.paperEdge}" fill-opacity="0.28" rx="4"/>
 ${[2023, 2024, 2025, 2026, 2027].map((year) => `<line x1="${xOf([year, 1]).toFixed(1)}" y1="${top - 6}" x2="${xOf([year, 1]).toFixed(1)}" y2="${bottom}" stroke="${C.faint}" stroke-opacity="0.45" stroke-dasharray="2 5"/>
 <text x="${(xOf([year, 1]) + 4).toFixed(1)}" y="${top - 2}" class="lex b" font-size="12" letter-spacing="1" fill="${C.tealDark}">${year}</text>`).join('\n')}

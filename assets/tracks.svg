@@ -42,7 +42,7 @@
   <rect x="48" y="8" width="92" height="24" fill="#e9dcb8" fill-opacity="0.78" transform="rotate(-5 94 20)"/><rect x="760" y="8" width="92" height="24" fill="#e9dcb8" fill-opacity="0.78" transform="rotate(4 806 20)"/>
 </g>
 <text x="74" y="70" class="hand ink rise" font-size="28">My publications so far</text>
-<text x="76" y="96" class="lex lead rise" font-size="14" style="animation-delay:0.15s">Each row is one kind of output, as the lanes of a LexViz map. Time runs from left to right.</text>
+<text x="76" y="96" class="lex lead rise" font-size="14" style="animation-delay:0.15s">Each row is one kind of output. Time runs from left to right.</text>
 <rect x="711.0" y="120" width="161.0" height="438" fill="#e7dcc6" fill-opacity="0.28" rx="4"/>
 <line x1="228.0" y1="132" x2="228.0" y2="558" stroke="#a39b8b" stroke-opacity="0.45" stroke-dasharray="2 5"/>
 <text x="232.0" y="136" class="lex b" font-size="12" letter-spacing="1" fill="#0b3b3a">2023</text>
