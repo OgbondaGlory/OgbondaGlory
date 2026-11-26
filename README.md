@@ -1,11 +1,11 @@
 <a href="https://lexvizexplorer.com"><img src="assets/hero.svg" width="100%" alt="Hi, I'm Glory. Ebube Glory Ogbonda, PhD researcher in computer science at Bangor University. I draw legal processes as maps people can follow."></a>
 
 <p align="center">
-  <a href="https://lexvizexplorer.com"><img src="https://img.shields.io/badge/LexViz_Explorer-lexvizexplorer.com-0F766E?style=flat-square" alt="LexViz Explorer"></a>
-  <a href="https://doi.org/10.1080/13600869.2026.2771561"><img src="https://img.shields.io/badge/New_paper-IRLCT_2026-C0392B?style=flat-square" alt="New paper in IRLCT, 2026"></a>
-  <a href="https://orcid.org/0009-0002-9781-7537"><img src="https://img.shields.io/badge/ORCID-0009--0002--9781--7537-0B3B3A?style=flat-square&logo=orcid&logoColor=white" alt="ORCID"></a>
-  <a href="https://www.linkedin.com/in/ebube-glory-ogbonda-05bb2014b/"><img src="https://img.shields.io/badge/LinkedIn-Ebube_Glory_Ogbonda-0B3B3A?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="https://www.credly.com/users/ebube_glory_ogbonda/badges"><img src="https://img.shields.io/badge/Certificates-Credly-F2C14E?style=flat-square&logo=credly&logoColor=black" alt="Certificates on Credly"></a>
+  <a href="https://lexvizexplorer.com"><img src="assets/tag-site.svg" alt="lexvizexplorer.com"></a>
+  <a href="https://doi.org/10.1080/13600869.2026.2771561"><img src="assets/tag-paper.svg" alt="New paper: IRLCT 2026"></a>
+  <a href="https://orcid.org/0009-0002-9781-7537"><img src="assets/tag-orcid.svg" alt="ORCID"></a>
+  <a href="https://www.linkedin.com/in/ebube-glory-ogbonda-05bb2014b/"><img src="assets/tag-linkedin.svg" alt="LinkedIn"></a>
+  <a href="https://www.credly.com/users/ebube_glory_ogbonda/badges"><img src="assets/tag-credly.svg" alt="Certificates on Credly"></a>
 </p>
 
 Hi, I'm Glory. I'm a PhD researcher in computer science at Bangor University, in the AIMLAC Centre for Doctoral Training.

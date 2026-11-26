@@ -348,6 +348,32 @@ ${cards.map((card, at) => {
   return svg({ w: W, h: H, title: 'What I build with', desc: `Build: ${cards[0].items.join(', ')}. AI: ${cards[1].items.join(', ')}. Visualize: ${cards[2].items.join(', ')}. Test and ship: ${cards[3].items.join(', ')}.`, body });
 }
 
+/**
+ * A link as a small paper tag: a coloured edge on the left, the words in Lexend. Drawn here, not by a badge service, so the links show
+ * even when an outside service does not answer. Only the bold Lexend is embedded, to keep each tag small.
+ */
+const BOLD_CSS = `@font-face{font-family:Lex;font-weight:700;src:url(data:font/woff;base64,${font('Lexend-Bold')}) format('woff')}`;
+function tag(words, color) {
+  const wide = Math.round(words.length * 7.4 + 38);
+  const tall = 32;
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="${wide}" height="${tall}" viewBox="0 0 ${wide} ${tall}" role="img" aria-label="${esc(words)}">
+<title>${esc(words)}</title>
+<style>${BOLD_CSS}text{font-family:Lex,Lexend,'Segoe UI',Helvetica,Arial,sans-serif;font-weight:700}</style>
+<rect x="1" y="1" width="${wide - 2}" height="${tall - 4}" rx="5" fill="${C.paper}" stroke="${C.paperEdge}"/>
+<rect x="1" y="${tall - 5}" width="${wide - 4}" height="3" rx="1.5" fill="#d9ccb0"/>
+<path d="M 6 1 h 6 v ${tall - 4} h -6 a 5 5 0 0 1 -5 -5 v ${-(tall - 14)} a 5 5 0 0 1 5 -5 z" fill="${color}"/>
+<text x="${(wide + 12) / 2}" y="${tall / 2 + 2.5}" text-anchor="middle" font-size="12.5" fill="${C.ink}">${esc(words)}</text>
+</svg>
+`;
+}
+const TAGS = [
+  ['site', 'lexvizexplorer.com', C.teal],
+  ['paper', 'New paper: IRLCT 2026', C.red],
+  ['orcid', 'ORCID', '#a6ce39'],
+  ['linkedin', 'LinkedIn', '#0a66c2'],
+  ['credly', 'Certificates on Credly', C.gold],
+];
+
 // ---------- the activity calendar ----------
 
 async function readCalendar() {
@@ -430,6 +456,7 @@ if (!only) {
   write('route.svg', route());
   write('code.svg', code());
   write('stack.svg', stack());
+  TAGS.forEach(([name, words, color]) => write(`tag-${name}.svg`, tag(words, color)));
 }
 try {
   write('activity.svg', activity(await readCalendar()));
