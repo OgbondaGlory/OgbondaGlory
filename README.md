@@ -16,9 +16,9 @@ In January 2018 I founded Qrapp Technology, which I continue to lead as technica
 
 ## New publication
 
-<a href="https://doi.org/10.1080/13600869.2026.2771561"><img src="assets/paper.svg" width="100%" alt="New paper, accepted on 25 November 2026: Legal Visualisation in Practice: What LegalVis Reveals About Law, with Sarah Nason, in the International Review of Law, Computers and Technology."></a>
+<a href="https://doi.org/10.1080/13600869.2026.2771561"><img src="assets/paper.svg" width="100%" alt="New paper, accepted on 25 November 2026: Legal Visualisation in Practice: What LegalVis Reveals About Law, by S. Nason, E. G. Ogbonda, J. C. Roberts and P. W. S. Butcher, in the International Review of Law, Computers and Technology."></a>
 
-**Legal Visualisation in Practice: What LegalVis Reveals About Law**, co-authored with Sarah Nason, was accepted for publication in the *International Review of Law, Computers & Technology* (Taylor & Francis) on 25 November 2026.
+**Legal Visualisation in Practice: What LegalVis Reveals About Law**, co-authored with Dr Sarah Nason, Professor Jonathan C. Roberts and Dr Peter Butcher, was accepted for publication in the *International Review of Law, Computers & Technology* (Taylor & Francis) on 25 November 2026.
 
 The article examines legal visualisation (LegalVis): the use of flowcharts, timelines, network maps and other visual forms to explain legal rules, processes and relationships. Research in this area is spread across legal design, visual law, legal informatics and legal analytics. We conducted a systematic review following PRISMA 2020 across Scopus, Web of Science and IEEE Xplore (2013 to 2025), selected 51 papers, and identified nine clusters through cluster analysis. Just over three quarters of the reviewed studies used 2D visualisations, and most were designed for expert users rather than the public.
 
@@ -70,7 +70,7 @@ To date, I have established sixteen design requirements, each supported by evide
 
 **Journal**
 
-- **Legal Visualisation in Practice: What LegalVis Reveals About Law.** With S. Nason. *International Review of Law, Computers & Technology*, accepted 25 November 2026. [doi:10.1080/13600869.2026.2771561](https://doi.org/10.1080/13600869.2026.2771561)
+- **Legal Visualisation in Practice: What LegalVis Reveals About Law.** S. Nason, E. G. Ogbonda, J. C. Roberts and P. W. S. Butcher. *International Review of Law, Computers & Technology*, accepted 25 November 2026. [doi:10.1080/13600869.2026.2771561](https://doi.org/10.1080/13600869.2026.2771561)
 
 **Conference papers and posters**
 

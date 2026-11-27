@@ -179,7 +179,7 @@ ${goldArrow(796, 112, { style: delay(0) })}`;
 
 function paper() {
   const W = 900;
-  const H = 250;
+  const H = 268;
   const css = `@keyframes slam{0%{opacity:0;transform:scale(1.8) rotate(-24deg)}60%{opacity:1;transform:scale(.95) rotate(-12deg)}100%{opacity:1;transform:scale(1) rotate(-12deg)}}
 .slam{transform-box:fill-box;transform-origin:center;transform:rotate(-12deg);animation:slam .5s ease-out backwards}`;
   // A journal page, drawn small: the title bar, then two columns of lines.
@@ -198,15 +198,16 @@ function paper() {
 </g>`;
   };
   const body = `
-${sheet(14, 18, 872, 212, { turn: 0.3 })}
+${sheet(14, 18, 872, 232, { turn: 0.3 })}
 ${page(84, 34)}
 <g class="slam" style="${delay(1)}">${stamp(92, 106, 'ACCEPTED', C.red, { size: 17, turn: 0 })}</g>
 <text x="270" y="68" class="hand teal rise" font-size="24">New paper, accepted on 25 November 2026</text>
 <text x="270" y="108" class="lex b ink rise" font-size="25" style="${delay(0.15)}">Legal Visualisation in Practice:</text>
 <text x="270" y="140" class="lex b ink rise" font-size="25" style="${delay(0.25)}">What LegalVis Reveals About Law</text>
-<text x="270" y="174" class="lex lead rise" font-size="15.5" style="${delay(0.4)}">With Sarah Nason. International Review of Law, Computers &amp; Technology</text>
-<text x="270" y="200" class="lex teal rise" font-size="14" style="${delay(0.5)}">doi.org/10.1080/13600869.2026.2771561</text>`;
-  return svg({ w: W, h: H, title: 'New paper accepted', desc: 'Legal Visualisation in Practice: What LegalVis Reveals About Law, with Sarah Nason. Accepted on 25 November 2026 by the International Review of Law, Computers and Technology. DOI 10.1080/13600869.2026.2771561.', css, body });
+<text x="270" y="174" class="lex lead rise" font-size="15.5" style="${delay(0.4)}">S. Nason, E. G. Ogbonda, J. C. Roberts and P. W. S. Butcher</text>
+<text x="270" y="198" class="lex lead rise" font-size="15.5" style="${delay(0.45)}">International Review of Law, Computers &amp; Technology</text>
+<text x="270" y="226" class="lex teal rise" font-size="14" style="${delay(0.5)}">doi.org/10.1080/13600869.2026.2771561</text>`;
+  return svg({ w: W, h: H, title: 'New paper accepted', desc: 'Legal Visualisation in Practice: What LegalVis Reveals About Law, by S. Nason, E. G. Ogbonda, J. C. Roberts and P. W. S. Butcher. Accepted on 25 November 2026 by the International Review of Law, Computers and Technology. DOI 10.1080/13600869.2026.2771561.', css, body });
 }
 
 function board() {
